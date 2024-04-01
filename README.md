@@ -1,7 +1,7 @@
 
-<h1>Informe de Trabajo Final</h1>
+<h1 align="center">Informe de Trabajo Final</h1>
 
-<img align="center" src="images/upc-logo.png" alt="UPC" width="150">
+<p align="center"><img src="images/upc-logo.png" alt="UPC" width="150"></p>
 
 <h3 align="center">Universidad Peruana de Ciencias Aplicadas (UPC)</h3>
 <h3 align="center">Ingeniería de Software</h3>
