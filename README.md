@@ -1,19 +1,17 @@
-<div style="text-align:center;">
 
 <h1>Informe de Trabajo Final</h1>
 
-<img src="images/upc-logo.png" alt="UPC" width="150">
+<img align="center" src="images/upc-logo.png" alt="UPC" width="150">
 
-<h3>Universidad Peruana de Ciencias Aplicadas (UPC)</h3>
-<h3>Ingeniería de Software</h3>
-<h3>Ciclo 2024-01</h3>
-<h3>Curso: Desarrollo de Soluciones IOT</h3>
-<h3>Sección: WX71</h3>
-<h3>Profesor: León Baca, Marco Antonio</h3>
-<h3>Nombre del startup: EndUser</h3>
-<h3>Nombre del producto: AgriWatch</h3>
+<h3 align="center">Universidad Peruana de Ciencias Aplicadas (UPC)</h3>
+<h3 align="center">Ingeniería de Software</h3>
+<h3 align="center">Ciclo 2024-01</h3>
+<h3 align="center">Curso: Desarrollo de Soluciones IOT</h3>
+<h3 align="center">Sección: WX71</h3>
+<h3 align="center">Profesor: León Baca, Marco Antonio</h3>
+<h3 align="center">Nombre del startup: EndUser</h3>
+<h3 align="center">Nombre del producto: AgriWatch</h3>
 
-</div>
 
 <h3>Integrantes:</h3>
 
