@@ -451,15 +451,28 @@ El público objetivo de jardineros principiantes se compone de personas que est�
 * ¿Cuáles son los mayores desafíos que has enfrentado al cuidar de tus plantas?
 * ¿Qué aspectos de tu jardín consideras más importantes para monitorear en tiempo real?
 * ¿Cómo sueles determinar cuándo es necesario regar tus plantas?
-* ¿Has utilizado alguna vez tecnología o aplicaciones para ayudarte en el cuidado de tus plantas? ¿Cuál ha sido tu experiencia?
+* ¿Haz utilizado alguna vez tecnología o aplicaciones para ayudarte en el cuidado de tus plantas? ¿Cuál ha sido tu experiencia?
 * ¿Qué te gustaría aprender más sobre el cuidado de las plantas y la jardinería?
-* ¿Has tenido problemas con el riego excesivo o insuficiente en el pasado? ¿Cómo los has solucionado?
+* ¿Haz tenido problemas con el riego excesivo o insuficiente en el pasado? ¿Cómo los haz solucionado?
 * ¿Cómo te organizas para mantener un jardín en buen estado, especialmente si tienes poco tiempo disponible?
 * ¿Qué funciones de alerta consideras más útiles para recibir notificaciones sobre el estado de tus plantas?
 * ¿Qué esperarías de una aplicación que pretenda ayudarte con el cuidado de tus plantas?
 * ¿Cómo crees que una aplicación de jardinería podría facilitar tu experiencia como jardinero/a principiante o aficionado/a?
 
 ### 2.2.2. Registro de entrevistas. 
+
+<h4>Entrevista 1</h4>
+
+<img src="images/entrevista_1.png">
+
+Nombre: Sebastian Ramirez <br>
+Edad: 22 años<br>
+Distrito: La Victoria <br>
+Ocupación: Estudiante <br>
+Link: [Entrevista 1](https://drive.google.com/file/d/1LQP2zCYmWZrm1y9g7SQptOTmLZMKzTSq/view?usp=sharing "Entrevista 1")
+
+Sebastián nos comenta que el mayor desafio que ha experimentado al cuidar sus plantas es mantenerlas con buena salud debido al clima o humedad, además, nos comenta que considera importante tener un registro en tiempo real de aspectos como el nivel de humedad, temperatura y cantidad de luz. Para saber cuando regar las plantas se fija en las hojas y al tocar la tierra de las macetas ya que ha tenido problemas por exceso de riego, nunca utilizó aplicaciones para el cuidado de las plantas por desconocimiento.
+
 ### 2.2.3. Análisis de entrevistas. 
 ## 2.3. Needfinding. 
 ### 2.3.1. User Personas. 
