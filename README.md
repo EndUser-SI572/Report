@@ -472,6 +472,18 @@ Link: [Entrevista 1](https://drive.google.com/file/d/1LQP2zCYmWZrm1y9g7SQptOTmLZ
 
 Sebastián nos comenta que el mayor desafío que ha experimentado al cuidar sus plantas es mantenerlas con buena salud debido al clima o humedad, además, nos comenta que considera importante tener un registro en tiempo real de aspectos como el nivel de humedad, temperatura y cantidad de luz. Para saber cuando regar las plantas se fija en las hojas y al tocar la tierra de las macetas ya que ha tenido problemas por exceso de riego, nunca utilizó aplicaciones para el cuidado de las plantas por desconocimiento.
 
+<h4>Entrevista 2</h4>
+
+<img src="images/entrevista_2.jpg">
+
+Nombre: Lida Fermina <br>
+Edad: 21 años<br>
+Distrito: Callao <br>
+Ocupación: Estudiante <br>
+Link: [Entrevista 2](https://drive.google.com/file/d/1xFxj0o-Usbpe3B1eo7Dvru4UrlIVo8dp/view?usp=sharing)
+
+Sebastián nos comenta que el mayor desafío que ha experimentado al cuidar sus plantas es mantenerlas con buena salud debido al clima o humedad, además, nos comenta que considera importante tener un registro en tiempo real de aspectos como el nivel de humedad, temperatura y cantidad de luz. Para saber cuando regar las plantas se fija en las hojas y al tocar la tierra de las macetas ya que ha tenido problemas por exceso de riego, nunca utilizó aplicaciones para el cuidado de las plantas por desconocimiento.
+
 ### 2.2.3. Análisis de entrevistas. 
 ## 2.3. Needfinding. 
 ### 2.3.1. User Persona. 
