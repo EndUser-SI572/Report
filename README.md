@@ -510,7 +510,16 @@ Jardinero Principiante
 
 <!-- ### 2.4. Ubiquitous Language.--> 
 # Capítulo III: Requirements Specification 
-## 3.1. To-Be Scenario Mapping. 
+### 3.1. To-Be Scenario Mapping. 
+
+Agricultor
+
+<img src="images/TOBEAGRI.jpg"  width="1000">
+
+Jardinero Principiante
+
+<img src="images/TOBEPRI.jpg"  width="1000">
+
 ## 3.2. User Stories. 
 ## 3.3. Impact Mapping. 
 ## 3.4. Product Backlog. 
