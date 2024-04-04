@@ -69,12 +69,11 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
     - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
   - [2.3. Needfinding.](#23-needfinding)
-    - [2.3.1. User Personas.](#231-user-personas)
+    - [2.3.1. User Persona.](#231-user-persona)
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language.](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
   - [3.2. User Stories.](#32-user-stories)
@@ -471,16 +470,45 @@ Distrito: La Victoria <br>
 Ocupación: Estudiante <br>
 Link: [Entrevista 1](https://drive.google.com/file/d/1LQP2zCYmWZrm1y9g7SQptOTmLZMKzTSq/view?usp=sharing "Entrevista 1")
 
-Sebastián nos comenta que el mayor desafio que ha experimentado al cuidar sus plantas es mantenerlas con buena salud debido al clima o humedad, además, nos comenta que considera importante tener un registro en tiempo real de aspectos como el nivel de humedad, temperatura y cantidad de luz. Para saber cuando regar las plantas se fija en las hojas y al tocar la tierra de las macetas ya que ha tenido problemas por exceso de riego, nunca utilizó aplicaciones para el cuidado de las plantas por desconocimiento.
+Sebastián nos comenta que el mayor desafío que ha experimentado al cuidar sus plantas es mantenerlas con buena salud debido al clima o humedad, además, nos comenta que considera importante tener un registro en tiempo real de aspectos como el nivel de humedad, temperatura y cantidad de luz. Para saber cuando regar las plantas se fija en las hojas y al tocar la tierra de las macetas ya que ha tenido problemas por exceso de riego, nunca utilizó aplicaciones para el cuidado de las plantas por desconocimiento.
 
 ### 2.2.3. Análisis de entrevistas. 
 ## 2.3. Needfinding. 
-### 2.3.1. User Personas. 
+### 2.3.1. User Persona. 
+
+<img src="images/user-persona-agriwatch.png">
+
 ### 2.3.2. User Task Matrix. 
+
+Tareas |	Frecuencia	| Importancia |
+-------|--------------|--------------|
+Aprender a cuidar plantas |	Alta |	Alta
+Monitorear la humedad del suelo |	Media |	Alta
+Monitorear la temperatura del suelo	| Media |	Media
+Recibir consejos sobre riego	| Alta |	Alta
+Integrar el cuidado de las plantas en la rutina diaria |	Alta	| Alta
+Recordar cuándo regar las plantas	| Alta |	Media
+Aprender sobre el cuidado de plantas de manera fácil	| Alta |	Alta
+Sentirse conectado con la naturaleza a través de las plantas	| Alta	| Alta
+Evitar cometer errores en el cuidado de las plantas	| Alta |	Media
+
 ### 2.3.3. User Journey Mapping. 
+
+Jardinero Principiante
+
+<img src="images/Customer journey map agriwatch.png" width="1000">
+
 ### 2.3.4. Empathy Mapping. 
+
+Jardinero Principiante
+
+<img src="images/Empathy map.png">
+
 ### 2.3.5. As-is Scenario Mapping. 
-### 2.4. Ubiquitous Language. 
+
+<img src="images/Scenario Mapping.jpg"  width="1000">
+
+<!-- ### 2.4. Ubiquitous Language.--> 
 # Capítulo III: Requirements Specification 
 ## 3.1. To-Be Scenario Mapping. 
 ## 3.2. User Stories. 
