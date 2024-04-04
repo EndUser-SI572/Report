@@ -482,7 +482,7 @@ Distrito: Callao <br>
 Ocupación: Estudiante <br>
 Link: [Entrevista 2](https://drive.google.com/file/d/1xFxj0o-Usbpe3B1eo7Dvru4UrlIVo8dp/view?usp=sharing)
 
-Sebastián nos comenta que el mayor desafío que ha experimentado al cuidar sus plantas es mantenerlas con buena salud debido al clima o humedad, además, nos comenta que considera importante tener un registro en tiempo real de aspectos como el nivel de humedad, temperatura y cantidad de luz. Para saber cuando regar las plantas se fija en las hojas y al tocar la tierra de las macetas ya que ha tenido problemas por exceso de riego, nunca utilizó aplicaciones para el cuidado de las plantas por desconocimiento.
+Lida nos comenta que es tiene mucha dificultad el hacer sus deberes a la antigua y que estaria proyectada a usar la tecnologia para que su trabajo sea mas eficaz y de esa forma sea mas productivo, ya que considera que es importante el tener el control de humedad en tiempo real para que de esa forma no exceda o falte a los abonos que esta misma tiene.
 
 ### 2.2.3. Análisis de entrevistas. 
 ## 2.3. Needfinding. 
