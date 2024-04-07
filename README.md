@@ -75,7 +75,7 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
+    - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
   - [3.2. User Stories.](#32-user-stories)
   - [3.3. Impact Mapping.](#33-impact-mapping)
   - [3.4. Product Backlog.](#34-product-backlog)
@@ -524,17 +524,128 @@ Jardinero Principiante
 # Capítulo III: Requirements Specification 
 ### 3.1. To-Be Scenario Mapping. 
 
-Agricultor
-
-<img src="images/TOBEAGRI.jpg"  width="1000">
-
 Jardinero Principiante
 
 <img src="images/TOBEPRI.jpg"  width="1000">
 
 ## 3.2. User Stories. 
+
+<table>
+  <thead>
+    <tr>
+      <th>Epic ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP01</td>
+      <td>Registro e inicio de sesión de usuario</td>
+      <td>Como usuario quiero registrarme en AgriWatch para empezar a hacer un cuidado correcto de mis plantas.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de aceptación</th>
+      <th>Relacionado con Epic ID</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Registro de usuario</td>
+      <td>Como usuario quiero crear mi cuenta para empezar a usar AgriWatch.</td>
+      <td>
+          <b>Scenario 01:</b> Registro exitoso</br>
+          <b>GIVEN</b> que el usuario visualiza el formulario de registro</br>
+          <b>WHEN</b> ingresa sus datos correctamente</br>
+          <b>AND</b> presiona el botón registrarse</br>
+          <b>THEN</b> se registra exitosamente.</br></br>
+          <b>Scenario 02:</b> Registro fallido</br>
+          <b>GIVEN</b> que el usuario se encuentra en el formulario de registro</br>
+          <b>WHEN</b> ingresa sus datos incorrectamente</br>
+          <b>AND</b> presiona el botón registrarse</br>
+          <b>THEN</b> sale un mensaje de error</br>
+          <b>Y</b> el controno del campo de texto donde ocurre el error se pone de color rojo.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario deseo iniciar sesión para acceder a la aplicación.</td>
+      <td>
+          <b>Scenario 01:</b> Ingreso correcto de datos</br>
+          <b>GIVEN</b> que el usuario va iniciar sesión</br>
+          <b>WHEN</b> ingresa sus datos correctamente</br>
+          <b>AND</b> presiona el botón de inicio de sesión</br>
+          <b>THEN</b> accede a la página de inicio de la aplicacicón</br></br>
+          <b>Scenario 02:</b> Ingreso incorrecto de datos</br>
+          <b>GIVEN</b> que el usuario va iniciar sesión</br>
+          <b>WHEN</b> ingresa sus datos incorrectamente</br>
+          <b>AND</b> presiona el botón de inicio de sesión</br>
+          <b>THEN</b> sale un mensaje de error indicando que los datos ingresados son incorrectos.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+        <td>US03</td>
+        <td>Cerrar sesión</td>
+        <td>Como usuario deseo cerrar sesión para salir de mi cuenta.</td>
+        <td>
+            <b>Scenario 01:</b> Cerrar sesión</br>
+            <b>GIVEN</b> que el usuario se encuentra en la aplicación</br>
+            <b>WHEN</b> presiona el botón cerrar sesión</br>
+            <b>THEN</b> se cierra la sesión</br>
+            <b>AND</b> se muestra la la página de inicio de sesión</br>
+        </td>
+        <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Cambiar contraseña</td>
+      <td>Como usuario deseo cambiar mi contraseña para acceder nuevamente a mi cuenta.</td>
+      <td>
+          <b>Scenario 01:</b> Cambio de contraseña exitoso</br>
+          <b>GIVEN</b> que el usuario se encuentra en el formulario de cambio de contraseña</br>
+          <b>WHEN</b> el usuario ingresa una contraseña válida</br>
+          <b>AND</b> repite correctamente la contraseña</br>
+          <b>THEN</b> se muestra un mensaje que la contraseña se cambió correctamente</br></br>
+          <b>Scenario 02:</b> Cambio de contraseña erróneo</br>
+          <b>GIVEN</b> que el usuario se encuentra en el formulario de cambio de contraseña</br>
+          <b>WHEN</b> repite mal la contraseña</br>
+          <b>AND</b> presiona el botón cambiar contraseña</br>
+          <b>THEN</b> se muestra un mensaje que la contraseña es incorrecta</br>
+      </td>
+      <td>EP01</td>
+    </tr>
+  </tbody>
+</table>
+
 ## 3.3. Impact Mapping. 
 ## 3.4. Product Backlog. 
+
+<table>
+  <thead>
+    <tr>
+      <th># Orden</th>
+      <th>User Story Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
 # Capítulo IV: Solution Software Design 
 ## 4.1. Strategic-Level Domain-Driven Design. 
 ### 4.1.1. EventStorming. 
