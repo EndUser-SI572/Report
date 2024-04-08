@@ -823,7 +823,7 @@ Jardinero Principiante
       <td>US08</td>
       <td>Control remoto de riego</td>
       <td>Como usuario quiero controlar el riego de mis plantas de forma remota a través de la aplicación.</td>
-      <td>13</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>9</td>
@@ -837,7 +837,7 @@ Jardinero Principiante
       <td>US10</td>
       <td>Generación de informes de crecimiento</td>
       <td>Como usuario quiero generar informes detallados sobre el crecimiento de mis plantas para evaluar su salud y progreso.</td>
-      <td>13</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>11</td>
