@@ -682,6 +682,71 @@ Jardinero Principiante
       </td>
       <td>EP02</td>
     </tr>
+   <tr>
+      <td>US08</td>
+      <td>Control remoto de riego</td>
+      <td>Como usuario quiero controlar el riego de mis plantas de forma remota a través de la aplicación.</td>
+      <td>
+          <b>Scenario 01:</b> Activar riego remoto</br>
+          <b>GIVEN</b> que el usuario tiene configurado un sistema de riego automático compatible</br>
+          <b>WHEN</b>  el usuario accede a la aplicación</br>
+          <b>THEN</b> puede activar o desactivar el riego de sus plantas.</br>
+          <b>Scenario 02:</b> Programar riego automático</br>
+          <b>GIVEN</b> que el usuario tiene configurado un sistema de riego automático compatible</br>
+          <b>WHEN</b> el usuario accede a la aplicación</br>
+          <b>AND</b> selecciona la opción de programación de riego</br>
+          <b>THEN</b> puede establecer horarios y duraciones para el riego automático de sus plantas.</br>
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Visualización de datos de riego</td>
+      <td>Como usuario quiero ver datos históricos sobre el riego de mis plantas para entender mejor sus necesidades hídricas. </td>
+      <td>
+          <b>Scenario 01:</b> Visualización de historial de riego</br>
+          <b>GIVEN</b> que el usuario tiene configurado un sistema de riego automático compatible</br>
+          <b>WHEN</b> el usuario accede a la sección de análisis de datos</br>
+          <b>THEN</b> puede ver un historial de los eventos de riego, incluyendo fechas, duraciones y volúmenes de agua aplicados.</br>
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Generación de informes de crecimiento</td>
+      <td>Como usuario quiero generar informes detallados sobre el crecimiento de mis plantas para evaluar su salud y progreso.  </td>
+      <td>
+          <b>Scenario 01:</b> Generación de informe de crecimiento </br>
+          <b>GIVEN</b>  que el usuario tiene registradas sus plantas en la aplicación</br>
+          <b>WHEN</b> el usuario accede a la sección de análisis de datos</br>
+          <b>THEN</b> puede generar un informe detallado que incluye gráficos y estadísticas sobre el crecimiento de sus plantas en un período específico. </br>
+      </td>
+      <td>EP04</td>
+    </tr>
+     <tr>
+      <td>US11</td>
+      <td>Análisis de tendencias de temperatura</td>
+      <td>Como usuario quiero analizar tendencias de temperatura para comprender cómo afecta el clima al desarrollo de mis plantas.   </td>
+      <td>
+          <b>Scenario 01:</b> Análisis de tendencias de temperatura </br>
+          <b>GIVEN</b> que el usuario tiene datos de temperatura registrados en la aplicación</br>
+          <b>WHEN</b> el usuario accede a la sección de análisis de datos</br>
+          <b>THEN</b> puede visualizar gráficos de tendencias de temperatura a lo largo del tiempo y su impacto en el crecimiento de las plantas. </br>
+      </td>
+      <td>EP04</td>
+    </tr>
+     <tr>
+      <td>US12</td>
+      <td>Comparación de datos de crecimiento</td>
+      <td>Como usuario quiero comparar datos de crecimiento entre diferentes especies de plantas para identificar patrones y mejores prácticas de cuidado.   </td>
+      <td>
+          <b>Scenario 01:</b> Comparación de datos de crecimiento </br>
+          <b>GIVEN</b> que el usuario tiene múltiples especies de plantas registradas en la aplicación</br>
+          <b>WHEN</b> el usuario accede a la sección de análisis de datos</br>
+          <b>THEN</b> puede seleccionar varias plantas para comparar sus datos de crecimiento, incluyendo altura, desarrollo de hojas, y otros parámetros relevantes. </br>
+      </td>
+      <td>EP04</td>
+    </tr>
   </tbody>
 </table>
 
