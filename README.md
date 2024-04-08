@@ -551,6 +551,17 @@ Jardinero Principiante
       <td>Notificaciones de cuidado de plantas</td>
       <td>Como usuario quiero recibir notificaciones sobre las necesidades de mis plantas para que tengan un cuidado óptimo.</td>
     </tr>
+    <tr>
+      <td>EP03</td>
+      <td>Integración con sistemas de riego automático </td>
+      <td>Como usuario quiero integrar AgriWatch con sistemas de riego automático para optimizar el cuidado de mis plantas.</td>
+    </tr>
+  <tr>
+      <td>EP04</td>
+      <td> Herramienta de análisis de datos</td>
+      <td>Como usuario quiero una herramienta de análisis de datos para entender mejor el crecimiento y desarrollo de mis plantas y tomar decisiones informadas.</td>
+    </tr>
+    <tr>
   </tbody>
 </table>
 
