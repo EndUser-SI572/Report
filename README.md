@@ -675,6 +675,11 @@ Jardinero Principiante
 </table>
 
 ## 3.3. Impact Mapping. 
+
+Jardinero Principiante
+
+<img src="images/Impactmap.jpg"  width="1000">
+
 ## 3.4. Product Backlog. 
 
 <table>
