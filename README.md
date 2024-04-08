@@ -762,15 +762,100 @@ Jardinero Principiante
   <thead>
     <tr>
       <th># Orden</th>
-      <th>User Story Id</th>
+      <th>User Story ID</th>
       <th>Título</th>
       <th>Descripción</th>
       <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>1</td>
+      <td>US01</td>
+      <td>Registro de usuario</td>
+      <td>Como usuario quiero crear mi cuenta para empezar a usar AgriWatch.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US02</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario deseo iniciar sesión para acceder a la aplicación.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US03</td>
+      <td>Cerrar sesión</td>
+      <td>Como usuario deseo cerrar sesión para salir de mi cuenta.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US04</td>
+      <td>Cambiar contraseña</td>
+      <td>Como usuario deseo cambiar mi contraseña para acceder nuevamente a mi cuenta.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US05</td>
+      <td>Notificaciones de bajo nivel de humedad</td>
+      <td>Como usuario quiero recibir notificaciones cuando el nivel de humedad del suelo de mis plantas sea bajo para asegurarme de que las riego en el momento adecuado.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>US06</td>
+      <td>Nivel de temperatura</td>
+      <td>Como usuario quiero visualizar la temperatura del ambiente para saber a qué espacio mover mi planta.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US07</td>
+      <td>Alertas de condiciones ambientales extremas</td>
+      <td>Como usuario quiero una notificación cuando se presenten temperaturas extremas para tomar acción inmediata y proteger mi planta.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US08</td>
+      <td>Control remoto de riego</td>
+      <td>Como usuario quiero controlar el riego de mis plantas de forma remota a través de la aplicación.</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US09</td>
+      <td>Visualización de datos de riego</td>
+      <td>Como usuario quiero ver datos históricos sobre el riego de mis plantas para entender mejor sus necesidades hídricas.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US10</td>
+      <td>Generación de informes de crecimiento</td>
+      <td>Como usuario quiero generar informes detallados sobre el crecimiento de mis plantas para evaluar su salud y progreso.</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US11</td>
+      <td>Análisis de tendencias de temperatura</td>
+      <td>Como usuario quiero analizar tendencias de temperatura para comprender cómo afecta el clima al desarrollo de mis plantas.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US12</td>
+      <td>Comparación de datos de crecimiento</td>
+      <td>Como usuario quiero comparar datos de crecimiento entre diferentes especies de plantas para identificar patrones y mejores prácticas de cuidado.</td>
+      <td>8</td>
+    </tr>
   </tbody>
 </table>
+
 
 # Capítulo IV: Solution Software Design 
 ## 4.1. Strategic-Level Domain-Driven Design. 
