@@ -109,51 +109,53 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
 <table >
   <thead>
     <tr>
-      <th colspan="3">Criterio especifico</th>
-      <th colspan="3"><strong>Acciones realizadas</strong></th>
-      <th colspan="3"><strong>Conclusiones</strong></th>
+      <th>Criterio especifico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td colspan="3">Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.</td>
-      <td colspan="3" align = "justify">
-<h3>Jackeline Fernanda Salomé Nina</h3>
-        <strong>TB1</strong>
-
-<h3>Jorgeluis Escobedo Mori</h3>
-        <strong>TB1</strong>
-
-<h3>Brando Daniel Romero Loma</h3>
-        <strong>TB1</strong>
-
-<h3>Wilfredo Futuri Illa</h3>
-        <strong>TB1</strong>
-
-<h3>Edwin Abdias Lopez Huaman</h3>
-        <strong>TB1</strong>
-
-<td colspan="3"></td>
+      <td>Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.</td>
+      <td>
+        <h3>Jackeline Fernanda Salomé Nina</h3>
+        <b><i>TB1</i></b><br>
+        <!--Colocar student outcome aqui-->
+        <h3>Jorgeluis Escobedo Mori</h3>
+        <b><i>TB1</i></b><br>
+        <!--Colocar student outcome aqui-->
+        <h3>Brando Daniel Romero Loma</h3>
+        <b><i>TB1</i></b><br>
+        <!--Colocar student outcome aqui-->
+        <h3>Wilfredo Futuri Illa</h3>
+        <b><i>TB1</i></b><br>
+        <!--Colocar student outcome aqui-->
+        <h3>Edwin Abdias Lopez Huaman</h3>
+        <b><i>TB1</i></b><br>
+        <!--Colocar student outcome aqui-->
+      </td>
+      <td></td>
     </tr>
     <tr>
-      <td colspan="3">Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</td>
-      <td colspan="3" align = "justify">
-<h3>Jackeline Fernanda Salomé Nina</h3>
-        <strong>TB1</strong>
-
-<h3>Jorgeluis Escobedo Mori</h3>
-        <strong>TB1</strong>
-
-<h3>Brando Daniel Romero Loma</h3>
-        <strong>TB1</strong>
-
-<h3>Wilfredo Futuri Illa</h3>
-        <strong>TB1</strong>
-
-<h3>Edwin Abdias Lopez Huaman</h3>
-        <strong>TB1</strong>
-
-<td colspan="3"></td>
+      <td>Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</td>
+      <td>
+        <h3>Jackeline Fernanda Salomé Nina</h3>
+        <b><i>TB1</i></b><br>
+        <!--Colocar student outcome aqui-->
+        <h3>Jorgeluis Escobedo Mori</h3>
+        <b><i>TB1</i></b><br>
+        <!--Colocar student outcome aqui-->
+        <h3>Brando Daniel Romero Loma</h3>
+        <b><i>TB1</i></b><br>
+        <!--Colocar student outcome aqui-->
+        <h3>Wilfredo Futuri Illa</h3>
+        <b><i>TB1</i></b><br>
+        <!--Colocar student outcome aqui-->
+        <h3>Edwin Abdias Lopez Huaman</h3>
+        <b><i>TB1</i></b><br>
+        <!--Colocar student outcome aqui-->
+      </td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -544,6 +546,11 @@ Jardinero Principiante
       <td>Registro e inicio de sesión de usuario</td>
       <td>Como usuario quiero registrarme en AgriWatch para empezar a hacer un cuidado correcto de mis plantas.</td>
     </tr>
+    <tr>
+      <td>EP02</td>
+      <td>Notificaciones de cuidado de plantas</td>
+      <td>Como usuario quiero recibir notificaciones sobre las necesidades de mis plantas para que tengan un cuidado óptimo.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -625,6 +632,44 @@ Jardinero Principiante
           <b>THEN</b> se muestra un mensaje que la contraseña es incorrecta</br>
       </td>
       <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Notificaciones de bajo nivel de humedad</td>
+      <td>Como usuario quiero recibir notificaciones cuando el nivel de humedad del suelo de mis plantas sea bajo para asegurarme de que las riego en el momento adecuado.</td>
+      <td>
+          <b>Scenario 01:</b> Nivel bajo de humedad</br>
+          <b>GIVEN</b> que el usuario tiene el sensor de humedad instalado en las plantas</br>
+          <b>AND</b> la planta esta registrada en la aplicación</br>
+          <b>WHEN</b> el nivel de humedad del suelo de una planta cae por debajo de un umbral predefinido</br>
+          <b>THEN</b> se muestra una notificación de humedad baja</br>
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Nivel de temperatura</td>
+      <td>Como usuario quiero visualizar la temperatura del ambiente para saber a que espacio mover mi planta.</td>
+      <td>
+          <b>Scenario 01:</b> Nivel de temperatura actual</br>
+          <b>GIVEN</b> que el usuario tiene el sensor de temperatura activo</br>
+          <b>WHEN</b> el usuario quiera ver el nivel de temperatura</br>
+          <b>AND</b> presione el botón de ver temperatura<br>
+          <b>THEN</b> se muestra la temperatura actual.</br>
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Alertas de condiciones ambientales extremas</td>
+      <td>Como usuario quiero una notifiación cuando se presenten temperaturas extremas para tomar acción inmediata y proteger mi planta.</td>
+      <td>
+          <b>Scenario 01:</b> Notificación temperatura extrema</br>
+          <b>GIVEN</b> que el usuario tiene el sensor de temperatura activo</br>
+          <b>WHEN</b> la temperatura sea extrema</br>
+          <b>THEN</b> se notificará que la temperatura es extrema para la planta.</br>
+      </td>
+      <td>EP02</td>
     </tr>
   </tbody>
 </table>
