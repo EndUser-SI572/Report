@@ -486,6 +486,18 @@ Link: [Entrevista 2](https://drive.google.com/file/d/1xFxj0o-Usbpe3B1eo7Dvru4Url
 
 Lida nos comenta que es tiene mucha dificultad el hacer sus deberes a la antigua y que estaria proyectada a usar la tecnologia para que su trabajo sea mas eficaz y de esa forma sea mas productivo, ya que considera que es importante el tener el control de humedad en tiempo real para que de esa forma no exceda o falte a los abonos que esta misma tiene.
 
+<h4>Entrevista 3</h4>
+
+<img src="images/entrevista_3.jpeg">
+
+Nombre: Julio Asillo <br>
+Edad: 23 años<br>
+Distrito: Ate <br>
+Ocupación: Estudiante <br>
+Link: [Entrevista 3](https://youtu.be/Jgr_PM4luEk?si=ZACEdNlaOUeOF7wO)
+
+Julio nos comparte que posee un pequeño jardín junto a su madre, donde cultiva una variedad de plantas. Destaca que uno de los desafíos principales es garantizar un cuidado eficiente de las plantas, dado que su madre trabaja y él está dedicado a sus estudios. En ocasiones, la rutina diaria les dificulta brindar la atención necesaria al jardín, olvidando regar las plantas y monitorear su estado.
+
 ### 2.2.3. Análisis de entrevistas. 
 ## 2.3. Needfinding. 
 ### 2.3.1. User Persona. 
