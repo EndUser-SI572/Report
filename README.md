@@ -31,9 +31,22 @@
 
 <h3 align="center">Historial de Versiones</h3>
 
-| Versión | Fecha| Autor | Descripcion|
-| ------- | -----|-------|------------|
-| 1.0 | 9/04/2024 | Edwin Lopez, Jackeline Salome, Brando Romero, Wilfredo Futuri, Jorgeluis Escobedo | Se realizó un primer avance de los capítulos 1, 2, 3 y 4.       |
+<table>
+  <thead>
+    <th>Versión</th>
+    <th>Fecha</th>
+    <th>Autor</th>
+    <th>Descripcion</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.0</td>
+      <td>9/04/2024</td>
+      <td>Edwin Lopez, Jackeline Salomé, Brando Romero, Wilfredo Futuri, Jorgeluis Escobedo</td>
+      <td>Se realizó un primer avance de los capítulos 1, 2, 3 y 4.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -120,7 +133,7 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
       <td>
         <h3>Jackeline Fernanda Salomé Nina</h3>
         <b><i>TB1</i></b><br>
-        <!--Colocar student outcome aqui-->
+        Se aportó al equipo haciendo el capítulo 2, parte del capítulo 3 y unas entrevista además del avance de la documentación en markdown.
         <h3>Jorgeluis Escobedo Mori</h3>
         <b><i>TB1</i></b><br>
         <!--Colocar student outcome aqui-->
@@ -141,7 +154,7 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
       <td>
         <h3>Jackeline Fernanda Salomé Nina</h3>
         <b><i>TB1</i></b><br>
-        <!--Colocar student outcome aqui-->
+        Acordamos como grupo trabajar sobre el sector agrícola a un nivel de aficionados y principiantes.
         <h3>Jorgeluis Escobedo Mori</h3>
         <b><i>TB1</i></b><br>
         <!--Colocar student outcome aqui-->
@@ -499,6 +512,49 @@ Link: [Entrevista 3](https://youtu.be/Jgr_PM4luEk?si=ZACEdNlaOUeOF7wO)
 Julio nos comparte que posee un pequeño jardín junto a su madre, donde cultiva una variedad de plantas. Destaca que uno de los desafíos principales es garantizar un cuidado eficiente de las plantas, dado que su madre trabaja y él está dedicado a sus estudios. En ocasiones, la rutina diaria les dificulta brindar la atención necesaria al jardín, olvidando regar las plantas y monitorear su estado.
 
 ### 2.2.3. Análisis de entrevistas. 
+
+Las respuestas de los entrevistados se muestran a continuación:
+
+**¿Cuáles son los mayores desafíos que has enfrentado al cuidar de tus plantas?**
+
+Los entrevistados enfrentan desafíos como el control de plagas, el mantenimiento de la humedad del suelo y el tiempo disponible para el riego. Además, algunos mencionaron la gestión del riego excesivo o insuficiente.
+
+**¿Qué aspectos de tu jardín consideras más importantes para monitorear en tiempo real?**
+
+La mayoría de los entrevistados consideran importante monitorear la humedad del suelo, la temperatura y la cantidad de luz en tiempo real para garantizar el cuidado adecuado de sus plantas.
+
+**¿Cómo sueles determinar cuándo es necesario regar tus plantas?**
+
+Los entrevistados determinan la necesidad de riego observando el suelo para verificar su humedad y observando las hojas de las plantas para detectar signos de sequedad.
+
+**¿Has utilizado alguna vez tecnología o aplicaciones para ayudarte en el cuidado de tus plantas? ¿Cuál ha sido tu experiencia?**
+
+Ninguno de los entrevistados ha utilizado aplicaciones para el cuidado de plantas anteriormente, principalmente debido al desconocimiento o falta de experiencia en este tipo de tecnología.
+
+**¿Qué te gustaría aprender más sobre el cuidado de las plantas y la jardinería?**
+
+Los entrevistados expresaron interés en aprender más sobre el uso de nutrientes, tipos de tierra, frecuencia de riego, selección de plantas adecuadas y métodos naturales para combatir plagas.
+
+**¿Has tenido problemas con el riego excesivo o insuficiente en el pasado? ¿Cómo los has solucionado?**
+
+Algunos entrevistados han tenido problemas con el riego insuficiente o excesivo en el pasado, pero han buscado soluciones ajustando la cantidad de agua y cambiando la ubicación de las plantas.
+
+**¿Cómo te organizas para mantener un jardín en buen estado, especialmente si tienes poco tiempo disponible?**
+
+Los entrevistados se organizan encontrando tiempo entre sus obligaciones diarias, organizando sus horarios cotidianos o realizando pequeñas tareas de a poco para mantener su jardín en buen estado.
+
+**¿Qué funciones de alerta consideras más útiles para recibir notificaciones sobre el estado de tus plantas?**
+
+Las funciones de alerta consideradas más útiles incluyen notificaciones sobre el estado de la humedad del suelo, alertas sobre condiciones ambientales extremas y la planificación semanal con automatización del riego.
+
+**¿Qué esperarías de una aplicación que pretenda ayudarte con el cuidado de tus plantas?**
+
+Los entrevistados esperarían que una aplicación de jardinería proporcione información sobre el mantenimiento de las plantas, consejos personalizados, recordatorios de riego y alertas sobre problemas y plagas.
+
+**¿Cómo crees que una aplicación de jardinería podría facilitar tu experiencia como jardinero/a principiante o aficionado/a?**
+
+Los entrevistados creen que una aplicación de jardinería podría facilitar su experiencia proporcionando alertas para el riego o el estado de la planta, facilitando el cuidado de las plantas y brindando información útil y recordatorios.
+
 ## 2.3. Needfinding. 
 ### 2.3.1. User Persona. 
 
