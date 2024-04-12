@@ -624,12 +624,21 @@ Jardinero Principiante
       <td>Integración con sistemas de riego automático </td>
       <td>Como usuario quiero integrar AgriWatch con sistemas de riego automático para optimizar el cuidado de mis plantas.</td>
     </tr>
-  <tr>
+    <tr>
       <td>EP04</td>
-      <td> Herramienta de análisis de datos</td>
+      <td>Herramienta de análisis de datos</td>
       <td>Como usuario quiero una herramienta de análisis de datos para entender mejor el crecimiento y desarrollo de mis plantas y tomar decisiones informadas.</td>
     </tr>
     <tr>
+      <td>EP05</td>
+      <td>Sistema de Recomendaciones de Cuidado de Plantas</td>
+      <td>Como usuario quiero recibir recomendaciones personalizadas sobre el cuidado de mis plantas basadas en sus características específicas y en condiciones ambientales.</td>
+    </tr>
+    <tr>
+      <td>EP06</td>
+      <td>Integración con Dispositivos de Monitoreo Externo</td>
+      <td>Como usuario quiero integrar AgriWatch con dispositivos externos de monitoreo de plantas, como sensores de luz, humedad y temperatura, para obtener datos más precisos y completos sobre mis plantas.</td>
+    </tr>
   </tbody>
 </table>
 
