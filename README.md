@@ -659,7 +659,7 @@ Jardinero Principiante
           <b>WHEN</b> ingresa sus datos incorrectamente</br>
           <b>AND</b> presiona el botón registrarse</br>
           <b>THEN</b> sale un mensaje de error</br>
-          <b>Y</b> el controno del campo de texto donde ocurre el error se pone de color rojo.
+          <b>Y</b> el contorno del campo de texto donde ocurre el error se pone de color rojo.
       </td>
       <td>EP01</td>
     </tr>
@@ -672,7 +672,7 @@ Jardinero Principiante
           <b>GIVEN</b> que el usuario va iniciar sesión</br>
           <b>WHEN</b> ingresa sus datos correctamente</br>
           <b>AND</b> presiona el botón de inicio de sesión</br>
-          <b>THEN</b> accede a la página de inicio de la aplicacicón</br></br>
+          <b>THEN</b> accede a la página de inicio de la aplicación</br></br>
           <b>Scenario 02:</b> Ingreso incorrecto de datos</br>
           <b>GIVEN</b> que el usuario va iniciar sesión</br>
           <b>WHEN</b> ingresa sus datos incorrectamente</br>
@@ -690,7 +690,7 @@ Jardinero Principiante
             <b>GIVEN</b> que el usuario se encuentra en la aplicación</br>
             <b>WHEN</b> presiona el botón cerrar sesión</br>
             <b>THEN</b> se cierra la sesión</br>
-            <b>AND</b> se muestra la la página de inicio de sesión</br>
+            <b>AND</b> se muestra la página de inicio de sesión</br>
         </td>
         <td>EP01</td>
     </tr>
@@ -750,7 +750,7 @@ Jardinero Principiante
       </td>
       <td>EP02</td>
     </tr>
-   <tr>
+    <tr>
       <td>US08</td>
       <td>Control remoto de riego</td>
       <td>Como usuario quiero controlar el riego de mis plantas de forma remota a través de la aplicación.</td>
@@ -814,6 +814,107 @@ Jardinero Principiante
           <b>THEN</b> puede seleccionar varias plantas para comparar sus datos de crecimiento, incluyendo altura, desarrollo de hojas, y otros parámetros relevantes. </br>
       </td>
       <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US13</td>
+      <td>Configuración de recordatorios de riego</td>
+      <td>Como usuario quiero poder configurar recordatorios de riego personalizados para cada planta para mantener su salud.</td>
+      <td>
+          <b>Scenario 01:</b> Configuración de recordatorio de riego</br>
+          <b>GIVEN</b> que el usuario tiene una planta registrada en la aplicación</br>
+          <b>WHEN</b> el usuario accede a la configuración de la planta</br>
+          <b>AND</b> selecciona la opción de agregar recordatorio de riego</br>
+          <b>THEN</b> puede establecer un recordatorio con frecuencia y hora personalizadas.</br>
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Registro de múltiples plantas</td>
+      <td>Como usuario quiero poder registrar múltiples plantas en mi cuenta para monitorearlas todas en un solo lugar.  </td>
+      <td>
+          <b>Scenario 01:</b> Registro de múltiples plantas</br>
+          <b>GIVEN</b> que el usuario ha iniciado sesión en la aplicación</br>
+          <b>WHEN</b> el usuario accede a la sección de registro de plantas</br>
+          <b>AND</b> selecciona la opción de agregar una nueva planta</br>
+          <b>THEN</b> puede ingresar los detalles de la planta y agregarla a su cuenta.</br>
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Personalización de perfiles de planta</td>
+      <td>Como usuario quiero poder personalizar los perfiles de mis plantas con información específica para un cuidado más preciso.</td>
+      <td>
+          <b>Scenario 01:</b> Personalización de perfil de planta</br>
+          <b>GIVEN</b> que el usuario tiene una planta registrada en la aplicación</br>
+          <b>WHEN</b> el usuario accede al perfil de la planta</br>
+          <b>AND</b> selecciona la opción de editar información</br>
+          <b>THEN</b> puede agregar o modificar detalles como el tipo de suelo, la exposición al sol, y otras características específicas de la planta.</br>
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td>Registro de eventos de cuidado</td>
+      <td>Como usuario quiero poder registrar eventos de cuidado específicos para mantener un historial y planificar futuras acciones de cuidado.</td>
+      <td>
+          <b>Scenario 01:</b> Registro de evento de cuidado</br>
+          <b>GIVEN</b> que el usuario tiene una planta registrada en la aplicación</br>
+          <b>WHEN</b> el usuario accede al perfil de la planta</br>
+          <b>AND</b> selecciona la opción de agregar un nuevo evento de cuidado</br>
+          <b>THEN</b> puede ingresar detalles como el tipo de evento, la fecha y una descripción opcional.</br>
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US17</td>
+      <td>Integración con calendario</td>
+      <td>Como usuario quiero integrar los eventos de cuidado de mis plantas con mi calendario personal para una mejor organización.   </td>
+      <td>
+          <b>Scenario 01:</b> Integración con calendario</br>
+          <b>GIVEN</b> que el usuario ha registrado eventos de cuidado en la aplicación</br>
+          <b>WHEN</b> el usuario selecciona la opción de integrar con calendario</br>
+          <b>AND</b> selecciona el calendario al que desea agregar los eventos</br>
+          <b>THEN</b> los eventos de cuidado se sincronizan con el calendario seleccionado.</br>
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US18</td>
+      <td>Asistente de cuidado de plantas</td>
+      <td>Como usuario quiero un asistente virtual que me guíe en el cuidado de mis plantas, proporcionando consejos y recordatorios personalizados.</td>
+      <td>
+          <b>Scenario 01:</b> Asistente de cuidado de plantas</br>
+          <b>GIVEN</b> que el usuario ha iniciado sesión en la aplicación</br>
+          <b>WHEN</b> el usuario accede a la sección de asistente de cuidado</br>
+          <b>THEN</b> el asistente proporciona recomendaciones personalizadas basadas en el tipo de planta, la ubicación y otros factores relevantes.</br>
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US19</td>
+      <td>Foro de comunidad de jardineros</td>
+      <td>Como usuario quiero poder acceder a un foro de comunidad donde pueda compartir experiencias y consejos con otros jardineros.</td>
+      <td>
+          <b>Scenario 01:</b> Acceso al foro de comunidad</br>
+          <b>GIVEN</b> que el usuario ha iniciado sesión en la aplicación</br>
+          <b>WHEN</b> el usuario accede a la sección de comunidad</br>
+          <b>THEN</b> puede ver y participar en discusiones, hacer preguntas y compartir consejos con otros miembros de la comunidad.</br>
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US20</td>
+      <td>Recomendaciones de plantas</td>
+      <td>Como usuario quiero recibir recomendaciones personalizadas sobre qué plantas cultivar en función de mi ubicación y preferencias.</td>
+      <td>
+          <b>Scenario 01:</b> Recomendaciones de plantas</br>
+          <b>GIVEN</b> que el usuario ha iniciado sesión en la aplicación</br>
+          <b>WHEN</b> el usuario accede a la sección de recomendaciones</br>
+          <b>THEN</b> se muestran sugerencias de plantas adaptadas al clima, suelo y preferencias del usuario.</br>
+      </td>
+      <td>EP01</td>
     </tr>
   </tbody>
 </table>
