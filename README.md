@@ -105,15 +105,87 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
       - [4.1.3.2. Software Architecture Container Level Diagrams.](#4132-software-architecture-container-level-diagrams)
       - [4.1.3.3. Software Architecture Deployment Diagrams.](#4133-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.1. Bounded Context:](#421-bounded-context)
+    - [4.2.1. Bounded Context: Gestión de Usuarios](#421-bounded-context-gestión-de-usuarios)
       - [4.2.1.1. Domain Layer.](#4211-domain-layer)
       - [4.2.1.2. Interface Layer.](#4212-interface-layer)
       - [4.2.1.3. Application Layer.](#4213-application-layer)
       - [4.2.1.4. Infrastructure Layer.](#4214-infrastructure-layer)
-      - [4.2.1.6. Bounded Context Software Architecture Component Level Diagrams.](#4216-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.1.7. Bounded Context Software Architecture Code Level Diagrams.](#4217-bounded-context-software-architecture-code-level-diagrams)
-        - [4.2.1.7.1. Bounded Context Domain Layer Class Diagrams.](#42171-bounded-context-domain-layer-class-diagrams)
-        - [4.2.1.7.2. Bounded Context Database Design Diagram.](#42172-bounded-context-database-design-diagram)
+      - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.](#4215-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.](#4216-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.](#42161-bounded-context-domain-layer-class-diagrams)
+        - [4.2.1.6.2. Bounded Context Database Design Diagram.](#42162-bounded-context-database-design-diagram)
+    - [4.2.2. Bounded Context: Monitoreo Ambiental](#422-bounded-context-monitoreo-ambiental)
+      - [4.2.2.1. Domain Layer](#4221-domain-layer)
+      - [4.2.2.2. Interface Layer](#4222-interface-layer)
+      - [4.2.2.3. Application Layer](#4223-application-layer)
+      - [4.2.2.4. Infraestructure Layer](#4224-infraestructure-layer)
+      - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.](#4225-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.](#4226-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.](#42271-bounded-context-domain-layer-class-diagrams)
+        - [4.2.2.7.2. Bounded Context Database Design Diagram.](#42272-bounded-context-database-design-diagram)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+  - [5.1. Style Guidelines.](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture.](#52-information-architecture)
+    - [5.2.1. Organization Systems.](#521-organization-systems)
+    - [5.2.2. Labeling Systems.](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems.](#524-searching-systems)
+    - [5.2.5. Navigation Systems.](#525-navigation-systems)
+  - [5.3. Landing Page UI Design.](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe.](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up.](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design.](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes.](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams.](#542-applications-wireflow-diagrams)
+    - [5.4.2. Applications Mock-ups.](#542-applications-mock-ups)
+    - [5.4.3. Applications User Flow Diagrams.](#543-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping.](#55-applications-prototyping)
+- [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+  - [6.1. Software Configuration Management.](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration.](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management.](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide \& Conventions.](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration.](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Services \& Applications Implementation.](#62-landing-page-services--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1.](#6211-sprint-planning-1)
+      - [6.2.1.2. Sprint Backlog 1.](#6212-sprint-backlog-1)
+      - [6.2.1.3. Development Evidence for Sprint Review.](#6213-development-evidence-for-sprint-review)
+      - [6.2.1.4. Testing Suite Evidence for Sprint Review.](#6214-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.5. Execution Evidence for Sprint Review.](#6215-execution-evidence-for-sprint-review)
+      - [6.2.1.6. Services Documentation Evidence for Sprint Review.](#6216-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.7. Software Deployment Evidence for Sprint Review.](#6217-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.8. Team Collaboration Insights during Sprint.](#6218-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
+      - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
+      - [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review)
+      - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
+      - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3.](#6231-sprint-planning-3)
+      - [6.2.3.2. Sprint Backlog 3.](#6232-sprint-backlog-3)
+      - [6.2.3.3. Development Evidence for Sprint Review.](#6233-development-evidence-for-sprint-review)
+      - [6.2.3.4. Testing Suite Evidence for Sprint Review.](#6234-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.5. Execution Evidence for Sprint Review.](#6235-execution-evidence-for-sprint-review)
+      - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews.](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-Product.](#64-video-about-the-product)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+  - [Video About-the-Team.](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 ---
 
@@ -1038,26 +1110,1129 @@ Jardinero Principiante
 # Capítulo IV: Solution Software Design 
 ## 4.1. Strategic-Level Domain-Driven Design. 
 ### 4.1.1. EventStorming. 
-El EventStorming es un método que se aplica en la gestión de proyectos para descubrir  de una manera eficiente lo que sucede en el dominio de un software.
+Para esta parte del proyecto, se empleó la metodología de EventSorming con el propósito de obtener una visión más precisa de los sistemas y procesos empresariales. El objetivo fue identificar eventos fundamentales, desarrollar modelos de procesos y definir límites.
+
+**Comandos del Usuario :**
+
+<img src="images/Comandos de usuario.png"  width="1000">
+
+**Acciones del Sistema:**
+
+<img src="images/Acciones del sistema.png"  width="1000">
+
+**Eventos de Dominio:**
+
+<img src="images/Eventos de Dominio.png"  width="1000">
+
+**Políticas del Sistema:**
+
+<img src="images/Politicas del sistema.png"  width="1000">
+
+**Contexto de Negocio:**
+
+<img src="images/Contexto de negocio.png"  width="1000">
 
 #### 4.1.1.1 Candidate Context Discovery. 
+
+<img src="images/candidate context discovery.png"  width="1000">
+
 #### 4.1.1.2 Domain Message Flows Modeling. 
+
+<img src="images/domain message flow.png"  width="1000">
+
 #### 4.1.1.3 Bounded Context Canvases. 
+
+<img src="images/bc1.png"  width="1000">
+
+<img src="images/bc2.png"  width="1000">
+
 ### 4.1.2. Context Mapping. 6/38 V1.0 
+
+<img src="images/context mapping.png"  width="1000">
+
 ### 4.1.3. Software Architecture. 
+
+La arquitectura del software de la aplicación de monitoreo y control de invernaderos está diseñada siguiendo el patrón de arquitectura de microservicios. El front-end está desarrollado en Angular, que proporciona una interfaz de usuario interactiva y receptiva para los usuarios finales. El back-end está implementado en Spring Boot, que actúa como un conjunto de microservicios que gestionan la lógica empresarial y la comunicación con la base de datos.
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram. 
+
+Este diagrama muestra la interacción entre los distintos sistemas y componentes que componen la aplicación de monitoreo y control de invernaderos. Incluye el cliente Angular, el servidor Spring Boot, la base de datos (posiblemente PostgreSQL o MySQL), servicios de terceros como APIs meteorológicas, servicios de almacenamiento en la nube (como Amazon S3 o Google Cloud Storage) para archivos estáticos y de imágenes, y cualquier otro sistema externo necesario para el funcionamiento de la aplicación.
+
+<img src="images/software architecture system landscape.png"  width="1000">
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams. 
-#### 4.1.3.2. Software Architecture Container Level Diagrams. 
+
+Estos diagramas ilustran las relaciones y dependencias de la aplicación con otros sistemas y componentes externos. Por ejemplo, se mostraría la comunicación entre el front-end y el back-end, así como la integración con servicios externos para obtener datos meteorológicos o de suelo.
+
+<img src="images/context diagram.png"  width="1000">
+
+#### 4.1.3.2. Software Architecture Container Level Diagrams.
+
+Estos diagramas representan la estructura interna de la aplicación, mostrando los contenedores o componentes principales que la componen. En este caso, se mostrarían los contenedores de front-end y back-end, así como la comunicación entre ellos a través de APIs RESTful.
+
+<img src="images/container diagram.png"  width="1000">
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams. 
+
+Estos diagramas describen cómo se despliegan físicamente los componentes de la aplicación en un entorno de producción. Por ejemplo, se mostraría cómo se despliegan los archivos estáticos del front-end en un servidor web, y cómo se despliegan los servicios de back-end en un servidor de aplicaciones, junto con la configuración de la base de datos y cualquier otro componente necesario para la ejecución de la aplicación.
+
+<img src="images/deployment diagrams.png"  width="1000">
+
 ## 4.2. Tactical-Level Domain-Driven Design 
-### 4.2.1. Bounded Context: 
+
+Un Bounded Context en Domain-Driven Design (DDD) es la división de un lenguaje ubiquitous en varios lenguajes más pequeños y asignar a cada uno de ellos al contexto explícito en el que puede aplicarse.
+Para nuestro startup identificamos 4 Bounded Context, son los siguientes:
+
+-	Gestión de Usuario
+-	Monitoreo Ambiental
+-	Control de Riego. 
+
+### 4.2.1. Bounded Context: Gestión de Usuarios
+
+Clases, Atributos, Métodos y Relaciones en el Aspecto de Gestión de Usuarios
+
+<h3> Clases: </h3>
+
+**Usuario:**
+
+Atributos:
+-	ID_Usuario: Identificador único del usuario.
+-	Nombre_Usuario: Nombre completo del usuario.
+-	Correo_Electronico: Correo electrónico del usuario.
+-	Contraseña: Contraseña del usuario.
+-	Estado_Usuario: Indica si el usuario está activo o inactivo.
+-	Fecha_Registro: Fecha y hora de registro del usuario.
+-	Invernadero_ID: Identificador del invernadero al que pertenece el usuario (opcional).
+
+Métodos:
+-	Registrarse(): Crea una nueva cuenta de usuario.
+-	IniciarSesion(): Inicia sesión en la aplicación.
+-	CerrarSesion(): Cierra la sesión de la aplicación.
+-	CambiarContraseña(): Cambia la contraseña del usuario.
+-	ActualizarDatos(): Actualiza los datos personales del usuario.
+
+**Rol:**
+
+Atributos:
+-	ID_Rol: Identificador único del rol.
+-	Nombre_Rol: Nombre del rol (administrador, operador, supervisor).
+-	Permisos: Lista de permisos asociados al rol.
+
+Métodos:
+-	ObtenerPermisos(): Devuelve la lista de permisos asociados al rol.
+-	Permiso:
+-	Atributos:
+-	ID_Permiso: Identificador único del permiso.
+-	Nombre_Permiso: Nombre del permiso (ver datos, editar datos, controlar sistemas).
+-	ObtenerNombre(): Devuelve el nombre del permiso.
+
+**AsignacionRolUsuario:**
+
+Atributos:
+-	ID_Asignacion: Identificador único de la asignación.
+-	ID_Usuario: Identificador del usuario al que se asigna el rol.
+-	ID_Rol: Identificador del rol asignado al usuario.
+-	Fecha_Asignacion: Fecha y hora en que se realizó la asignación.
+
+Métodos:
+-	ObtenerUsuario(): Devuelve el usuario al que se le asignó el rol.
+-	ObtenerRol(): Devuelve el rol asignado al usuario.
+
+Relaciones:
+
+-	Un usuario puede tener uno o más roles.
+-	Un rol puede tener uno o más permisos.
+-	Un usuario puede estar asignado a uno o más invernaderos.
+-	Un invernadero puede tener múltiples usuarios con diferentes roles y permisos.
+
 #### 4.2.1.1. Domain Layer. 
-#### 4.2.1.2. Interface Layer. 
+
+**Entidades:**
+
+**Usuario:** Representa a una persona que tiene acceso a la aplicación.
+
+Atributos:
+-	ID_Usuario: Identificador único del usuario.
+-	Nombre_Usuario: Nombre completo del usuario.
+-	Correo_Electronico: Correo electrónico del usuario.
+-	Contraseña: Contraseña del usuario (encriptada).
+-	Estado_Usuario: Indica si el usuario está activo o inactivo.
+-	Fecha_Registro: Fecha y hora de registro del usuario.
+
+**Rol:** Representa un conjunto de permisos y responsabilidades dentro de la aplicación.
+
+Atributos:
+-	ID_Rol: Identificador único del rol.
+-	Nombre_Rol: Nombre del rol (administrador, operador, supervisor).
+-	Permisos: Lista de permisos asociados al rol.
+
+**Permiso:** Representa una acción específica que un usuario puede realizar dentro de la aplicación.
+
+Atributos:
+-	ID_Permiso: Identificador único del permiso.
+-	Nombre_Permiso: Nombre del permiso (ver datos, editar datos, controlar sistemas).
+
+**AsignacionRolUsuario:** Representa la asignación de un rol específico a un usuario.
+
+Atributos:
+-	ID_Asignacion: Identificador único de la asignación.
+-	ID_Usuario: Identificador del usuario al que se asigna el rol.
+-	ID_Rol: Identificador del rol asignado al usuario.
+
+**Fecha_Asignacion:** Fecha y hora en que se realizó la asignación.
+Invernadero: Representa un espacio físico controlado donde se cultivan plantas.
+
+Atributos:
+-	ID_Invernadero: Identificador único del invernadero.
+-	Nombre_Invernadero: Nombre del invernadero.
+-	Ubicacion_Invernadero: Ubicación física del invernadero.
+-	Tipo_Cultivo: Tipo de cultivo que se siembra en el invernadero.
+-	Cantidad_Sensores: Número de sensores instalados en el invernadero.
+
+**Value Objects:**
+
+**PoliticaContraseña:** Representa las reglas que debe cumplir una contraseña para ser considerada segura.
+
+Atributos:
+-	LongitudMinima: Longitud mínima requerida para la contraseña.
+-	CaracteresMayusculas: Indica si se requieren caracteres en mayúscula.
+-	CaracteresMinusculas: Indica si se requieren caracteres en minúscula.
+-	CaracteresNumericos: Indica si se requieren caracteres numéricos.
+-	CaracteresEspeciales: Indica si se requieren caracteres especiales.
+
+
+Reglas de Negocio:
+
+-	ValidarContraseña: Verifica si una contraseña cumple con las políticas de seguridad establecidas.
+-	AutenticarUsuario: Valida las credenciales de un usuario (correo electrónico y contraseña) para permitir el acceso a la aplicación.
+-	AsignarRolUsuario: Asigna un rol específico a un usuario para un invernadero determinado.
+-	RevocarRolUsuario: Revoca un rol específico a un usuario para un invernadero determinado.
+-	VerificarPermisoUsuario: Verifica si un usuario tiene un permiso específico para realizar una acción dentro de la aplicación.
+
+Servicios de Dominio:
+
+-	ServicioRegistroUsuario: Se encarga de registrar un nuevo usuario en la aplicación.
+-	ServicioAutenticacionUsuario: Se encarga de autenticar a los usuarios en la aplicación.
+-	ServicioGestionRoles: Se encarga de crear, modificar y eliminar roles dentro de la aplicación.
+-	ServicioAsignacionRoles: Se encarga de asignar y revocar roles a los usuarios.
+-	ServicioGestionPermisos: Se encarga de crear, modificar y eliminar permisos dentro de la aplicación.
+-	ServicioControlAcceso: Controla el acceso de los usuarios a las diferentes funcionalidades de la aplicación en función de sus roles y permisos.
+
+Repositorios:
+
+-	RepositorioUsuarios: Proporciona acceso a la información de los usuarios.
+-	RepositorioRoles: Proporciona acceso a la información de los roles.
+-	RepositorioPermisos: Proporciona acceso a la información de los permisos.
+-	RepositorioAsignacionesRolUsuario: Proporciona acceso a la información de las asignaciones de roles a usuarios.
+-	RepositorioInvernaderos: Proporciona acceso a la información de los invernaderos.
+
+#### 4.2.1.2. Interface Layer.
+
+La Interface Layer del Bounded Context de Gestión de Usuarios se encarga de exponer las funcionalidades del sistema a los usuarios a través de interfaces de usuario, ya sean web, móviles o de línea de comandos. Esta capa actúa como intermediario entre el Domain Layer y el usuario final, traduciendo las operaciones del dominio en acciones que el usuario puede comprender e interactuar.
+
+**Clases:**
+
+-	ControladorUsuario: Se encarga de manejar las solicitudes relacionadas con el registro, autenticación, gestión de perfiles y asignación de roles a los usuarios.
+-	ControladorRol: Se encarga de manejar las solicitudes relacionadas con la creación, modificación y eliminación de roles, así como la asignación de permisos a cada rol.
+-	ControladorPermiso: Se encarga de manejar las solicitudes relacionadas con la creación, modificación y eliminación de permisos.
+-	ControladorAcceso: Se encarga de verificar los permisos de los usuarios para acceder a las diferentes funcionalidades del sistema.
+-	VistaUsuario: Representa la interfaz gráfica o de texto que permite al usuario visualizar y modificar su información personal, así como realizar acciones relacionadas con su cuenta.
+-	VistaRol: Representa la interfaz gráfica o de texto que permite al administrador del sistema visualizar, crear, modificar y eliminar roles, así como asignar permisos a cada rol.
+-	VistaPermiso: Representa la interfaz gráfica o de texto que permite al administrador del sistema visualizar, crear, modificar y eliminar permisos.
+
 #### 4.2.1.3. Application Layer. 
+
+La Application Layer del Bounded Context de Gestión de Usuarios se encarga de manejar los flujos de negocio de la aplicación, orquestando las acciones de las capas inferiores (Domain Layer e Infrastructure Layer) para cumplir con los objetivos del Bounded Context. En esta capa se encuentran las clases que implementan la lógica de negocio específica del dominio, asegurando la coherencia y consistencia de las operaciones.
+
+**Clases:**
+
+**ManejadorRegistroUsuario:** Se encarga de manejar el proceso de registro de nuevos usuarios en la aplicación.
+
+
+-	Valida los datos de registro del usuario (nombre, correo electrónico, contraseña).
+-	Crea una nueva instancia de usuario en el Domain Layer.
+-	Almacena la información del usuario en el repositorio correspondiente.
+-	Envía un correo electrónico de confirmación al usuario registrado.
+
+**ManejadorAutenticacionUsuario:** Se encarga de manejar el proceso de autenticación de usuarios en la aplicación.
+
+
+-	Valida las credenciales de autenticación del usuario (correo electrónico, contraseña).
+-	Verifica la existencia del usuario en el Domain Layer.
+-	Si la autenticación es exitosa, genera un token de acceso y lo devuelve al usuario.
+-	Si la autenticación falla, envía un mensaje de error al usuario.
+
+**ManejadorAsignacionRolUsuario:** Se encarga de manejar el proceso de asignación de roles a usuarios para un invernadero específico.
+
+-	Valida la información de asignación (usuario, rol, invernadero).
+-	Crea una nueva instancia de AsignacionRolUsuario en el Domain Layer.
+-	Almacena la información de asignación en el repositorio correspondiente.
+-	Envía una notificación al usuario sobre la asignación del rol.
+
+**ManejadorRevocacionRolUsuario:** Se encarga de manejar el proceso de revocación de roles a usuarios para un invernadero específico.
+
+-	Valida la información de revocación (usuario, rol, invernadero).
+-	Elimina la instancia de AsignacionRolUsuario en el Domain Layer.
+-	Elimina la información de asignación del repositorio correspondiente.
+-	Envía una notificación al usuario sobre la revocación del rol.
+
+**ManejadorControlAcceso:** Se encarga de verificar los permisos de los usuarios para acceder a las diferentes funcionalidades de la aplicación.
+
+-	Obtiene los permisos del usuario en función de su rol y el invernadero al que accede.
+-	Compara los permisos del usuario con los permisos requeridos para la funcionalidad a la que desea acceder.
+-	Si el usuario tiene los permisos necesarios, permite el acceso a la funcionalidad.
+-	Si el usuario no tiene los permisos necesarios, envía un mensaje de acceso denegado.
+
 #### 4.2.1.4. Infrastructure Layer. 
-#### 4.2.1.6. Bounded Context Software Architecture Component Level Diagrams. 
-#### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams. 
-##### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams. 
-##### 4.2.1.7.2. Bounded Context Database Design Diagram.
 
+**Clases:**
 
+RepositorioUsuario: Se encarga de la persistencia de los datos de los usuarios en la base de datos.
+
+RepositorioRol: Se encarga de la persistencia de los datos de los roles en la base de datos.
+
+RepositorioPermiso: Se encarga de la persistencia de los datos de los permisos en la base de datos.
+
+RepositorioAsignacionRolUsuario: Se encarga de la persistencia de los datos de asignación de roles a usuarios en la base de datos.
+
+ServicioNotificacionCorreoElectronico: Se encarga de enviar correos electrónicos de notificación a los usuarios.
+-	Utiliza un servicio de correo electrónico externo para enviar los correos electrónicos.
+-	Implementa la lógica para generar el contenido de los correos electrónicos.
+
+ServicioNotificacionSMS: Se encarga de enviar mensajes SMS de notificación a los usuarios.
+-	Utiliza un servicio de SMS externo para enviar los mensajes.
+-	Implementa la lógica para generar el contenido de los mensajes SMS.
+
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams. 
+
+<img src="images/component diagram.png"  width="1000">
+
+https://drive.google.com/file/d/1Vu7F6ZSUOSZDTKu0dqu7vfQTmzdADQ1j/view?usp=sharing
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams. 
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+
+<img src="images/class diagram.png"  width="1000">
+
+##### 4.2.1.6.2. Bounded Context Database Design Diagram.
+
+<img src="images/database diagram.png"  width="1000">
+
+### 4.2.2. Bounded Context: Monitoreo Ambiental
+
+Clases, Atributos, Métodos y Relaciones en el Aspecto de Monitoreo Ambiental
+
+**Clases:**
+
+Sensor:
+
+Atributos:
+-	ID_Sensor: Identificador único del sensor.
+-	Tipo_Sensor: Indica el tipo de sensor (humedad, temperatura).
+-	Ubicacion_Sensor: Ubicación del sensor dentro del invernadero.
+-	Estado_Sensor: Indica si el sensor está activo o inactivo.
+-	Fecha_Calibracion: Fecha de la última calibración del sensor.
+
+Métodos:
+-	MedirHumedad(): Obtiene la medición actual de la humedad.
+-	MedirTemperatura(): Obtiene la medición actual de la temperatura.
+-	EnviarDatos(): Envía los datos medidos al sistema de procesamiento.
+
+DatoHumedad:
+
+Atributos:
+-	ID_DatoHumedad: Identificador único del dato de humedad.
+-	Valor_Humedad: Valor de la humedad medida.
+-	Fecha_Registro: Fecha y hora en que se registró el dato.
+-	ID_Sensor: Identificador del sensor que tomó la medición.
+-	Invernadero_ID: Identificador del invernadero al que pertenece el sensor.
+
+Métodos:
+-	ObtenerValor(): Devuelve el valor de la humedad.
+-	ObtenerFechaRegistro(): Devuelve la fecha y hora de registro.
+-	ObtenerSensor(): Devuelve el sensor que tomó la medición.
+-	ObtenerInvernadero(): Devuelve el invernadero al que pertenece el sensor.
+
+DatoTemperatura:
+
+Atributos:
+-	ID_DatoTemperatura: Identificador único del dato de temperatura.
+-	Valor_Temperatura: Valor de la temperatura medida.
+-	Fecha_Registro: Fecha y hora en que se registró el dato.
+-	ID_Sensor: Identificador del sensor que tomó la medición.
+-	Invernadero_ID: Identificador del invernadero al que pertenece el sensor.
+
+Métodos:
+-	ObtenerValor(): Devuelve el valor de la temperatura.
+-	ObtenerFechaRegistro(): Devuelve la fecha y hora de registro.
+-	ObtenerSensor(): Devuelve el sensor que tomó la medición.
+-	ObtenerInvernadero(): Devuelve el invernadero al que pertenece el sensor.
+
+Invernadero:
+
+Atributos:
+-	ID_Invernadero: Identificador único del invernadero.
+-	Nombre_Invernadero: Nombre del invernadero.
+-	Ubicacion_Invernadero: Ubicación física del invernadero.
+-	Tipo_Cultivo: Tipo de cultivo que se siembra en el invernadero.
+-	Cantidad_Sensores: Número de sensores instalados en el invernadero.
+Métodos:
+-	ObtenerSensores(): Devuelve la lista de sensores instalados en el invernadero.
+-	ObtenerDatosHumedad(): Devuelve la lista de datos de humedad registrados para el invernadero.
+-	ObtenerDatosTemperatura(): Devuelve la lista de datos de temperatura registrados para el invernadero.
+
+**Relaciones:**
+
+-	Un invernadero puede tener varios sensores.
+-	Un sensor puede registrar múltiples datos de humedad y temperatura.
+-	Un dato de humedad o temperatura pertenece a un sensor específico y a un invernadero específico.
+
+#### 4.2.2.1. Domain Layer
+
+<h3>Entidades:</h3>
+
+**Sensor:** Representa un dispositivo físico que mide la humedad y la temperatura dentro de un invernadero.
+
+Atributos:
+-	ID_Sensor: Identificador único del sensor.
+-	Tipo_Sensor: Indica el tipo de sensor (humedad, temperatura).
+-	Ubicacion_Sensor: Ubicación del sensor dentro del invernadero.
+-	Estado_Sensor: Indica si el sensor está activo o inactivo.
+-	Fecha_Calibracion: Fecha de la última calibración del sensor.
+
+**DatoHumedad:** Representa una medición de la humedad registrada por un sensor.
+
+Atributos:
+-	ID_DatoHumedad: Identificador único del dato de humedad.
+-	Valor_Humedad: Valor de la humedad medida.
+-	Fecha_Registro: Fecha y hora en que se registró el dato.
+-	ID_Sensor: Identificador del sensor que tomó la medición.
+-	Invernadero_ID: Identificador del invernadero al que pertenece el sensor.
+
+**DatoTemperatura:** Representa una medición de la temperatura registrada por un sensor.
+
+Atributos:
+-	ID_DatoTemperatura: Identificador único del dato de temperatura.
+-	Valor_Temperatura: Valor de la temperatura medida.
+-	Fecha_Registro: Fecha y hora en que se registró el dato.
+-	ID_Sensor: Identificador del sensor que tomó la medición.
+-	Invernadero_ID: Identificador del invernadero al que pertenece el sensor.
+
+**Invernadero:** Representa un espacio físico controlado donde se cultivan plantas.
+
+Atributos:
+-	ID_Invernadero: Identificador único del invernadero.
+-	Nombre_Invernadero: Nombre del invernadero.
+-	Ubicacion_Invernadero: Ubicación física del invernadero.
+-	Tipo_Cultivo: Tipo de cultivo que se siembra en el invernadero.
+-	Cantidad_Sensores: Número de sensores instalados en el invernadero.
+
+Value Objects:
+
+**RangoHumedadOptimo:** Representa el rango de humedad ideal para el crecimiento de las plantas.
+
+Atributos:
+-	ValorMinimo: Valor mínimo de humedad óptimo.
+-	ValorMaximo: Valor máximo de humedad óptimo.
+
+**RangoTemperaturaOptimo:** Representa el rango de temperatura ideal para el crecimiento de las plantas.
+
+Atributos:
+-	ValorMinimo: Valor mínimo de temperatura óptimo.
+-	ValorMaximo: Valor máximo de temperatura óptimo.
+
+**Reglas de Negocio:**
+
+-	ValidarRangoHumedad: Verifica si el valor de humedad registrado se encuentra dentro del rango óptimo.
+-	ValidarRangoTemperatura: Verifica si el valor de temperatura registrado se encuentra dentro del rango óptimo.
+-	GenerarAlertaHumedad: Genera una alerta si la humedad se encuentra fuera del rango óptimo.
+-	GenerarAlertaTemperatura: Genera una alerta si la temperatura se encuentra fuera del rango óptimo.
+
+**Servicios de Dominio:**
+
+-	Servicio Monitoreo Humedad: Se encarga de recopilar, procesar y analizar los datos de humedad de los sensores.
+-	ServicioMonitoreoTemperatura: Se encarga de recopilar, procesar y analizar los datos de temperatura de los sensores.
+-	ServicioAnalisisCondiciones: Analiza las condiciones ambientales (humedad y temperatura) para determinar si son óptimas para el crecimiento de las plantas.
+-	ServicioNotificaciones: Envía notificaciones al usuario cuando se generan alertas por niveles de humedad o temperatura fuera del rango óptimo.
+
+**Repositorios:**
+
+-	RepositorioSensores: Proporciona acceso a la información de los sensores.
+-	RepositorioDatosHumedad: Proporciona acceso a la información de los datos de humedad.
+-	RepositorioDatosTemperatura: Proporciona acceso a la información de los datos de temperatura.
+- RepositorioInvernaderos: Proporciona acceso a la información de los invernaderos.
+
+#### 4.2.2.2. Interface Layer
+
+**Clases:**
+
+-	ControladorMonitoreoHumedad: Se encarga de manejar las solicitudes relacionadas con la visualización de los datos de humedad en tiempo real, el historial de datos de humedad y el análisis de las condiciones de humedad dentro de los invernaderos.
+-	ControladorMonitoreoTemperatura: Se encarga de manejar las solicitudes relacionadas con la visualización de los datos de temperatura en tiempo real, el historial de datos de temperatura y el análisis de las condiciones de temperatura dentro de los invernaderos.
+-	ControladorVisualizacionDatos: Se encarga de presentar los datos de humedad y temperatura en diferentes formatos, como gráficos, tablas y paneles de control.
+-	VistaMonitoreoHumedad: Representa la interfaz gráfica o de texto que permite al usuario visualizar los datos de humedad en tiempo real, el historial de datos de humedad y el análisis de las condiciones de humedad dentro de los invernaderos.
+-	VistaMonitoreoTemperatura: Representa la interfaz gráfica o de texto que permite al usuario visualizar los datos de temperatura en tiempo real, el historial de datos de temperatura y el análisis de las condiciones de temperatura dentro de los invernaderos.
+
+#### 4.2.2.3. Application Layer
+
+<h3>Clases:</h3>
+
+**ManejadorRecoleccionDatos:** Se encarga de manejar el proceso de recolección de datos de humedad y temperatura de los sensores ubicados en los invernaderos.
+
+-	Solicita los datos de humedad y temperatura al servicio de recolección de datos de la Infrastructure Layer.
+-	Procesa los datos recibidos para asegurar su validez y consistencia.
+-	Envía los datos procesados al servicio de almacenamiento de datos de la Infrastructure Layer.
+
+**ManejadorProcesamientoDatos:** Se encarga de manejar el proceso de procesamiento de los datos de humedad y temperatura almacenados.
+
+-	Obtiene los datos de humedad y temperatura del servicio de almacenamiento de datos de la Infrastructure Layer.
+-	Calcula los valores promedio, mínimos y máximos de los datos.
+-	Aplica algoritmos de análisis para identificar patrones y tendencias en los datos.
+-	Envía los datos procesados al servicio de análisis de datos de la Infrastructure Layer.
+
+**ManejadorAnalisisDatos:** Se encarga de manejar el proceso de análisis de los datos de humedad y temperatura procesados.
+
+-	Obtiene los datos procesados del servicio de análisis de datos de la Infrastructure Layer.
+-	Compara los datos con los umbrales de humedad y temperatura establecidos para el crecimiento óptimo de las plantas.
+-	Genera alertas si los datos se encuentran fuera de los rangos óptimos.
+-	Envía las alertas y el análisis de datos al servicio de notificación de la Infrastructure Layer.
+
+**ManejadorNotificacion:** Se encarga de manejar el proceso de notificación de las alertas y el análisis de datos a los usuarios.
+
+-	Obtiene las alertas y el análisis de datos del servicio de notificación de la Infrastructure Layer.
+-	Envía notificaciones por correo electrónico o SMS a los usuarios responsables de los invernaderos.
+-	Registra las notificaciones enviadas en el historial de notificaciones.
+
+#### 4.2.2.4. Infraestructure Layer
+
+<h3>Clases:</h3>
+
+**ServicioRecoleccionDatos:** Se encarga de la recolección de datos de humedad y temperatura de los sensores ubicados en los invernaderos.
+
+-	Utiliza un driver o biblioteca específica para comunicarse con los sensores.
+-	Lee los valores de humedad y temperatura de los sensores.
+-	Formatea los datos recibidos para su posterior procesamiento.
+
+**ServicioAlmacenamientoDatos:** Se encarga del almacenamiento de los datos de humedad y temperatura en una base de datos.
+
+-	Utiliza un ORM (Object Relational Mapper) para mapear los objetos del Domain Layer a las tablas de la base de datos.
+-	Almacena los datos procesados en las tablas correspondientes de la base de datos.
+-	Garantiza la integridad y consistencia de los datos almacenados.
+
+**ServicioAnalisisDatos:** Se encarga del análisis de los datos de humedad y temperatura almacenados.
+
+-	Utiliza algoritmos de análisis estadístico para identificar patrones y tendencias en los datos.
+-	Compara los datos con los umbrales de humedad y temperatura establecidos para el crecimiento óptimo de las plantas.
+-	Genera alertas si los datos se encuentran fuera de los rangos óptimos.
+
+**ServicioNotificacion:** Se encarga de la notificación de las alertas y el análisis de datos a los usuarios.
+
+-	Envía notificaciones por correo electrónico o SMS a los usuarios responsables de los invernaderos.
+-	Registra las notificaciones enviadas en un historial de notificaciones.
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+
+<img src="images/component diagram.png"  width="1000">
+
+https://drive.google.com/file/d/1Vu7F6ZSUOSZDTKu0dqu7vfQTmzdADQ1j/view?usp=sharing
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+##### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams.
+
+<img src="images/class diagram1.png"  width="1000">
+
+##### 4.2.2.7.2. Bounded Context Database Design Diagram.
+
+<img src="images/database diagram1.png"  width="1000">
+
+# Capítulo V: Solution UI/UX Design
+## 5.1. Style Guidelines.
+### 5.1.1. General Style Guidelines.
+
+**Logo:**
+
+El logo de nuestra aplicación este asociado al rubro de transporte
+
+<img src="images/agriwatch (1).png"  width="200">
+<img src="images/agriwatch-logo.png"  width="200">
+
+**Lenguaje aplicado:**
+
+Debido a las características de nuestros segmentos objetivos y la naturaleza del producto software, el lenguaje será casual y respetuoso al mismo tiempo. Esto permitirá a los usuarios 
+generar confianza hacia nuestra aplicación.
+
+**Colores:**
+
+Según los elementos del diseño, usamos como colores predominantes verde y blanco, porque esos son los colores que trasmiten energía, amabilidad, innovación y alegría.
+
+<table>
+  <thead>
+    <th>Verde</th>
+    <th>Naranja</th>
+    <th>Rojo</th>
+  </thead>
+  <tbody>
+    <td>Hexadecimal: #2d5a26 <br> RGB: (45, 90, 38) </td>
+    <td>Hexadecimal: #f3934f <br> RGB: (243, 147, 79) </td>
+    <td>Hexadecimal: #9b3922 <br> RGB: (155, 57, 34) </td>
+  </tbody>
+</table>
+
+**Iconos:**
+
+Colocados de forma estratégica para lograr que el usuario pueda desenvolverse de manera intuitiva y sencilla a lo largo de todos los bloques de la aplicación web.
+
+<table>
+  <tbody>
+    <td><img src="images/icon1.png"  width="100"></td>
+    <td><img src="images/icon2.png"  width="110"></td>
+    <td><img src="images/icon3.png"  width="104"></td>
+    <td><img src="images/icon4.png"  width="95"></td>
+    <td><img src="images/icon5.png"  width="100"></td>
+    <td><img src="images/icon6.png"  width="100"></td>
+  </tbody>
+  <tbody>
+    <td><img src="images/icon7.png"  width="100"></td>
+    <td><img src="images/icon8.png"  width="100"></td>
+    <td><img src="images/icon9.png"  width="100"></td>
+    <td><img src="images/icon10.png"  width="110"></td>
+    <td><img src="images/icon11.png"  width="120"></td>
+    <td><img src="images/icon12.png"  width="100"></td>
+  </tbody>
+</table>
+
+**Fuentes:**
+
+Para la tipografía, se usará las fuentes Roboto.
+
+<img src="images/fonts.png"  width="500">
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines.
+
+<h3>Web Style Guidelines</h3>
+
+Los estándares visuales y de interacción a aplicar en la aplicación web son:
+
+**Simpleza:** La simplicidad está presente una buena interfaz gráfica, porque permite que el usuario pueda desplazarse de manera fluida.
+
+**Evasión de errores durante la interacción:** Tenemos que asegurarnos que el sistema no presente errores al momento de interactuar con el usuario, una buena forma de asegurar ello es con los diagramas de flujo y el prototipado. 
+
+**Claridad:** La interfaz gráfica de la aplicación web tiene que tener palabras precisas y sencillas de entender.
+
+**Representación fija y permanente de un determinado contexto de acción:** Se deben evitar los cambios bruscos de diseño al cambiar de página.  
+
+**Fácil identificación:** Debe existir una buena organización de modo que el cliente pueda hallar las herramientas que requiere con facilidad.  
+
+**Diseño ergonómico:** Para los iconos de nuestra aplicación web deben aplicar iconos universales, de este modo no se confunde al cliente. Por otro lado, debemos tener en cuenta el diseño universal de elementos específicos, como la posición del logo en la barra de navegación.
+
+**Herramientas de ayuda:** En caso el usuario desconozca el funcionamiento de alguna herramienta de la interfaz, se necesitará brindar herramientas de soporte.  
+
+**Acciones útiles y reversibles:** Cualquier cambio que el cliente desee hacer en la interfaz debe ser sencilla y reversible en caso de que el cambio sea accidental o el usuario con el tiempo no lo desee.
+
+**Rapidez:** Debemos diseñar la interfaz de modo que el usuario pueda desplazarse a través de la información, encontrarla y percibir de manera rápida y sencilla.
+
+<h3>Web Style Guidelines</h3>
+Para el desarrollo de la aplicación Web se desarrollará en Angular y los componentes de la aplicación están basado de Material para Angular. 
+
+**Componentes:**
+
+En la siguiente imagen se muestra los botones comunes para las acciones a realizar dentro de la aplicación. También, se muestra los botones flotantes.
+
+<img src="images/button.png"  width="1000">
+
+Esta imagen muestra un ejemplo de la barra de navegación.
+
+<img src="images/navigation bar.png"  width="1000">
+
+Los text inputs que se utilizan son los siguientes:
+
+<img src="images/inputs.png"  width="1000">
+
+Finalmente, usaremos cards para informar los envíos realizados.
+
+<img src="images/cards.png"  width="1000">
+
+**Tipografía:**
+
+La tipografía para utilizar es importante para la aplicación web. El que consideramos a utilizar, se basa en la siguiente imagen para que el usuario se sienta cómodo con la lectura de la información brindada.
+
+<h3>IoT Style Guidelines</h3>
+
+**Privacidad y transparencia:**
+
+Los datos de IoT solo deben recopilarse, transmitirse, procesarse y utilizarse. El propósito de la recopilación de datos de este proyecto es el monitoreo de los sembríos en que se encuentran en un área determinada. Estos datos recopilados deben ser visualizados solo por el/los administradores encargados del cuidado de los campos.
+
+**Gestión de datos:**
+
+Cada conjunto de datos de dispositivos IoT debe validarse y verificarse mediante la recopilación de datos y datos históricos. Los datos deben tener versiones para que los datos actualizados puedan distinguirse del original y/0 copia maestra. Las políticas de retención y eliminación de la copia maestra deben definirse explícitamente.
+
+**Infraestructura:**
+
+Para respaldar la coordinación de las implementaciones de IoT en todo el país, las agencias deben mantener un inventario de los dispositivos IoT que implementan mediante un formato estandarizado. Las agencias deben mantener un inventario de los activos públicos o privados en los que están instalados los dispositivos y las redes utilizados por estos dispositivos IoT.
+
+**Seguridad:**
+
+Los sistemas de IoT deben diseñarse con un enfoque explícito en minimizar los riesgos de seguridad (por ejemplo, operación no autorizada o piratería, fallas del sistema, manipulación y riesgos ambientales), limitando el impacto potencial de una violación de seguridad (por ejemplo, la divulgación de información de identificación personal), y garantizar que cualquier compromiso pueda detectarse y gestionarse rápidamente.
+
+Los sistemas de IoT deben utilizar marcos de seguridad establecidos, cuando sea posible, y garantizar que la comunicación entre los componentes esté estrictamente restringida.
+
+**Operación y sostenibilidad:**
+
+Se debe exigir una necesidad demostrada, un caso de negocio y un beneficio público (por ejemplo, resultados económicos, sociales y ambientales) antes de implementar cualquier nuevo dispositivo o solución de IoT. Además, se debe exigir una prueba de concepto antes de los despliegues en toda la ciudad.
+
+Se deben mantener métricas de desempeño para las soluciones. Los acuerdos deben especificar los resultados previstos de una solución y los niveles de servicio y prever sanciones, modificaciones o terminaciones del acuerdo en caso de que la solución no funcione.
+
+## 5.2. Information Architecture.
+
+En esta sección se mostrará la arquitectura de la información utilizada, parte del proceso de un diseño UX, Aquí se mostrará el contenido de manera organizada tomando en cuenta las necesidades específicas de la audiencia objetiva, producto y los objetivos que se tienen.
+
+### 5.2.1. Organization Systems.
+
+Establecer una jerarquía visual clara es importante para crear una página web bien optimizada. Debido a la forma en que nuestros sistemas visuales están conectados. Tendremos a escanear y analizar rápidamente muchos bits de información visual, como bordes, contraste, tamaño y movimiento, para evaluar y comprender nuestro entorno, Esto es cierto ya sea que estemos mirando un campo o una página web. Se mostrarán algunos ejemplos de la jerarquía que se planea utilizar en esta aplicación.
+
+El flujo que queremos que los usuarios tengan al ingresar a la aplicación es el siguiente: 
+
+1.	Al ingresar el usuario, lo primero que verá será un resumen de los datos obtenidos en tiempo real por los distintos sensores como humedad y temperatura, además de ver los distintos tipos de plantas que tiene.
+2.	Luego ve el total de plantas registradas en el periodo, lo que le dará una idea de cual es el estado actual. 
+3.	Al lado derecho podrá observar un Foro donde podrá realizar cualquier tipo de consulta. 
+4.	Finalmente, en la parte superior, se puede observar una barra de navegación en donde se encuentra el logo, los datos de la cuenta (persona), y el botón de cerrar sesión.
+
+<img src="images/web bn.png" width=1000>
+
+El flujo que queremos es que los usuarios puedan registrar las plantas, eliminar y ver sus respectivas estadísticas: 
+1.	Al seleccionar una planta, se le despliega la información total. 
+2.	Se podrá generar una nueva plantación registrándolo con un formulario como también editar las existentes.
+3.	También podrá observar el perfil del usuario y editar los datos personales.
+4.	Finalmente, podrá acceder a un foro donde realizará comentarios o preguntas al público ante alguna duda
+
+### 5.2.2. Labeling Systems.
+
+Para los labelling systems se ha utilizado un lenguaje formal y símbolos fáciles de entender.
+
+<table>
+  <tbody>
+    <td> <b>AgriWatch</b> </td>
+    <td>Nombre de la aplicación que dirige al usuario a la pantalla principal</td>
+  </tbody>
+  <tbody>
+    <td> <b>Ver Perfil</b> </td>
+    <td>Apartado en donde podrá revisar los datos personales</td>
+  </tbody>
+  <tbody>
+    <td> <b>Buscar planta</b> </td>
+    <td>Apartado en dónde se listarán las distintas plantas que se hayan registrado.</td>
+  </tbody>
+  <tbody>
+    <td> <b>Símbolo de una persona</b> </td>
+    <td>Apartado en donde se encontrará los datos del usuario como el nombre, documento de identidad, teléfono</td>
+  </tbody>
+  <tbody>
+    <td> <b>Símbolo de un camión</b> </td>
+    <td>Apartado en donde podrá también ver los envíos realizados desde el más reciente al más antiguo con más opciones para encontrar más rápido el envío que quisiera saber</td>
+  </tbody>
+  <tbody>
+    <td> <b>Símbolo de tuerca</b> </td>
+    <td>Apartado en donde se encuentra la configuración y el cierre de sesión. Aquí podrás cambiar el método de pago con el que realizas el envío.</td>
+  </tbody>
+</table>
+
+### 5.2.3. SEO Tags and Meta Tags
+
+> Un meta tag o también llamado meta descripción es una etiqueta HTML que se 
+utiliza para la descripción de una página web. Este aparecerá debajo de la URL de 
+la página web (Harsel, 2020).
+
+Los metas tags que se incluirán son los siguientes:
+
+1.	Título: Hablando estrictamente no es un meta-tag sino una etiqueta autónoma de HTML. Sin embargo, es válido considerarlo parte de los metadatos. Esta etiqueta se debe de tratar como un elemento obligado en el encabezado del documento HTML, esta se encargará de darle título a la página web. Es de suma importancia tenerla, puesto que los buscadores más importantes usan esta etiqueta para titular las entradas en las listas de resultados.
+2.	Descripción: Aquí podemos dar una descripción breve y concisa del contenido del sitio web. Esta información es la que se muestra debajo la URL en los buscadores más generalizados como Google.
+3.	Palabras clave: Aquí podemos definir palabras clave para el buscador. Esto nos ayudará a que nuestra página se posicione en las primeras búsquedas, por lo que se consideró uno de los factores SEO más importantes.
+
+Landing Page:
+- Título:
+  
+```html
+<title>VaRuta</title>
+```
+
+-	Descripción:
+
+```html
+<meta name="description" content="Conoce la aplicación de AgriWatch que te 
+facilitará la gestion de tus plantas"/>
+```
+
+-	Palabras clave:
+
+```html
+<meta name="keywords" content="Humedad, Temperatura, plantas, foros"/> 
+```
+
+### 5.2.4. Searching Systems.
+
+Para los searching systems se ha utilizado un lenguaje formal y fácil de entender.
+
+<table>
+  <tbody>
+    <td>Barra de filtrado de plantas</td>
+    <td>En esta sección encontraras los diferentes filtros que están relacionados las plantas y sensores que se tengan registradosBarr de filtrado de plantasa</td>
+  </tbody>
+</table>
+
+### 5.2.5. Navigation Systems.
+
+En esta sección encontraras los diferentes filtros que están relacionados las plantas y sensores que se tengan registrados
+
+## 5.3. Landing Page UI Design.
+### 5.3.1. Landing Page Wireframe.
+
+En esta Sección, se presentará el diseño del sitio web de nuestro desarrollo de software. Para brindar una mejor idea del contenido que se mostrará en la plataforma. El Landing Page es del tamaño adecuado para las pantallas de los ordenadores, así se mostrará la información centrada y será fácilmente visible para los usuarios. Asimismo, se evidencia una barra de navegación estática que facilitará la navegación del usuario, y así brindar la mejor experiencia.   
+
+***Menú principal de la plataforma:** Opciones de navegación*
+
+<img src="images/menu principal.png" width=1000>
+
+***About us:** Es una sección del menú principal*
+
+<img src="images/about.png" width=1000>
+
+***Categorias:** Es una sección del menú principal*
+
+<img src="images/categories.png" width=1000>
+
+***Footer:***
+
+<img src="images/footer.png" width=1000>
+
+### 5.3.2. Landing Page Mock-up.
+
+Se presentará la vista preliminar del sitio web, se va a detallar el contenido por secciones, los colores, estilos e imágenes que son coherentes con el propósito y así facilitar al usuario una mejor experiencia con el sitio web y que pueda entender fácilmente el objetivo del sitio web.
+
+**Menú de la plataforma:** Se muestran las principales opciones que permitirán al usuario conocer más de los servicios de la plataforma.
+
+<img src="images/menuc.png" width=1000>
+
+**About us:** Es una opción de la barra de herramientas del menú principal, donde se da a conocer el propósito de la plataforma.
+
+<img src="images/aboutc.png" width=1000>
+
+**Beneficios:** Es una opción de la barra de herramientas del menú principal, donde se especifica las categorías a las que el usuario podrá encontrar en la plataforma. 
+
+<img src="images/beneficiosc.png" width=1000>
+
+**Suscripción:**
+
+<img src="images/suscripcionc.png" width=1000>
+
+**Footer:**
+
+<img src="images/footerc.png" width=1000>
+
+Página desplegada: https://enduser-si572.github.io/landingPage/
+
+## 5.4. Applications UX/UI Design.
+### 5.4.1. Applications Wireframes.
+
+Los wireframes hechos para la aplicación son los siguientes:
+
+<img src="images/wireframes.png" width=1000>
+
+Link Figma: https://www.figma.com/file/IGHX5CGbRdkKT8Xrw6mS8A/AgriWatch?type=design&node-id=25%3A648&mode=design&t=wWjplSZSs4XBEzk3-1
+
+### 5.4.2. Applications Wireflow Diagrams.
+
+En esta sección se mencionarán los flujos de procesos.
+
+*Inicio de sesión*
+
+<img src="images/inicio sesion.png" width=1000>
+
+*Crear cuenta*
+
+<img src="images/crear cuenta.png" width=1000>
+
+*Agregar planta*
+
+<img src="images/agregar planta.png" width=1000>
+
+*Editar planta*
+
+<img src="images/editar planta.png" width=1000>
+
+*Ver perfil*
+
+<img src="images/ver perfil.png" width=1000>
+
+*Ingresar a foro*
+
+<img src="images/ingresar a foro.png" width=1000>
+
+### 5.4.2. Applications Mock-ups.
+
+Los mockups realizados son los siguientes:
+
+<img src="images/mockups.png" width=1000>
+
+Link Figma: https://www.figma.com/file/IGHX5CGbRdkKT8Xrw6mS8A/AgriWatch?type=design&node-id=0%3A1&mode=design&t=wWjplSZSs4XBEzk3-1
+
+### 5.4.3. Applications User Flow Diagrams.
+
+<img src="images/userflow.png" width=1000>
+
+## 5.5. Applications Prototyping.
+
+<img src="images/prototyping.png" width=1000>
+
+<img src="images/prototyping1.png" width=1000>
+
+Link: https://drive.google.com/file/d/1MO_fAr9-tVZTZ0I6HNMG3Zn0aOvW0yOK/view?usp=sharing
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+## 6.1. Software Configuration Management.
+### 6.1.1. Software Development Environment Configuration.
+
+**Project Management**
+Para gestionar los avances y poder coordinar los trabajos en tiempo real y de manera organizada, utilizamos muchas herramientas como:
+
+-	**OneDrive:**  Es un servicio de alojamiento y sincronización de archivos desarrollado por Microsoft
+
+Link: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20201b051_upc_edu_pe/EisnoZ-uEpRPpHDeHGSKOWsBkGwOHLhw72JG2sX8ot47UQ?e=gXASxR
+
+<p align="center">
+<img src="images/one drive.png" width=300>
+</p>
+
+-	**Documentos de Google:** Es un procesador de texto en línea que se incluye como parte de la suite Google Docs Editors basada en la web de Google
+
+<p align="center">
+<img src="images/documentos google.png" width=100>
+</p>
+
+-	**Discord:** Es un servicio de mensajería instantánea y chat de voz VolP. Funciona a través de servidores y está separado en canales de texto o de voz 
+
+Link: https://discord.com/
+
+<p align="center">
+<img src="images/discord.png" width=100>
+</p>
+
+-	**Git:** Es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia
+
+Link: https://git-scm.com/
+
+<p align="center">
+<img src="images/git.png" width=200>
+</p>
+
+-	**Trello:** Es un software de administración de proyectos con interfaz web y con cliente para iOS y android para organizar proyectos.
+
+Link: [Trello](https://trello.com/es?&aceid=&adposition=&adgroup=144042670505&campaign=19322080936&creative=642166749551&device=c&keyword=trello&matchtype=e&network=g&placement=&ds_kids=p74609546573&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gad=1&gclid=Cj0KCQjw6cKiBhD5ARIsAKXUdyZ-hyce2f-pFMgZr0F2yjOjMsXzq_ScjR5tZqm39HimQiTB6I6v8SgaAmRVEALw_wcB&gclsrc=aw.ds)
+
+<p align="center">
+<img src="images/trello.png" width=100>
+</p>
+
+<h4>Product UX/UI Design</h4>
+
+Para esta parte utilizamos una herramienta muy conocida que es Uxpressia, para los As-Is y To-Be Scenarios Mapping, utilizamos plantillas detalladas en los enunciados del trabajo, para los diseños de landing page y web application, utilizamos Figma para hacer los Wireframes y Mock-ups.
+
+- **Uxpressia:** Es una herramienta en línea para el mapeo de la trayectoria del cliente que crea mapas de impacto y personas
+  
+Link: https://uxpressia.com/
+
+<p align="center">
+<img src="images/uxpressia.png" width=100>
+</p>
+
+- **Figma:** Es un editor de gráficos vectorial y una herramienta de generación de prototipos, principalmente basada en la web, con características off-line adicionales habilitadas por aplicaciones de escritorio en macOS y Windows. 
+  
+Link: https://www.figma.com/
+
+<p align="center">
+<img src="images/figma.png" width=100>
+</p>
+
+<h4>Software Development</h4>
+
+Para esta primera parte del trabajo, en el tema de desarrollo de software utilizamos las sgtes herramientas y lenguajes para el landing page.
+
+- Webstorm: Proporciona una experiencia de desarrollo más inteligente y eficiente, automatizando el trabajo rutinario y ayudando a manejar tareas complejas con facilidad.
+  
+Link: [WebStorm](https://www.jetbrains.com/webstorm/promo/?source=google&medium=cpc&campaign=9641686239&term=webstorm&content=523833970754&gad=1&gclid=Cj0KCQjw6cKiBhD5ARIsAKXUdyYGwmeL7IepmiE-42xRGc9UxHGwnVfRkgYS72A5mDxJMdjdbqc1_P4aAt9UEALw_wcB)
+
+<p align="center">
+<img src="images/webstorm.png" width=100>
+</p>
+
+- **GitHub:** Es una plataforma de desarrollo colaborativo que nos permite alojar proyectos utilizando el sistema de control de versiones de git. Es propiedad de Microsoft y ofrece a los desarrolladores la posibilidad de crear repositorios de código y colaborar en proyectos con otros desarrolladores.
+  
+Link: https://github.com/
+
+<p align="center">
+<img src="images/github.png" width=100>
+</p>
+
+- **HTML:** HypexText Markup Language, es un lenguaje de etiquetas para la creación de páginas web.
+
+<p align="center">
+<img src="images/html.png" width=100>
+</p>
+
+- **CSS:** Cascading Style Sheets o en español Hojas de Estilo en Cascada, es un lenguaje diseñado y utilizado para definir y modificar la apariencia de los documentos HTML y XML. Se utiliza mucho para el dar estilos a las páginas web a la mano de HTML.
+
+<p align="center">
+<img src="images/css.png" width=100>
+</p>
+
+- **Angular:** Utilizamos Angular para desarrollar nuestra aplicación web. Ya que tiene características como el enlace de datos bidireccional, la inyección de dependencias y un sistema de ruteo completo, Angular nos permite construir aplicaciones complejas y de escala empresarial de manera eficiente.
+
+<p align="center">
+<img src="images/angular.jpeg" width=100>
+</p>
+
+### 6.1.2. Source Code Management.
+
+Para todo el ciclo de vida de nuestro proyecto, utilizaremos el sistema de control de versiones Git, donde la evidencia será visualizada y registrada en la plataforma de GitHub de nuestra organización. Dentro de nuestra organización podrá visualizar todos los cambios y modificaciones hechos por cada miembro de nuestro equipo.
+
+Github URL: https://github.com/orgs/EndUser-SI572/repositories
+
+<table>
+  <thead>
+    <th>Alumno</th>
+    <th>Correo</th>
+    <th>Usuario de GitHub</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Edwin López</b></td>
+      <td><a href="U20201b051@upc.edu.pe">U20201b051@upc.edu.pe</a></td>
+      <td><a href="https://github.com/EdwinLopezz17">https://github.com/EdwinLopezz17</a></td>
+    </tr>
+    <tr>
+      <td><b>Brando Romero</b></td>
+      <td><a href="U20201b745@upc.edu.pe">U20201b745@upc.edu.pe</a></td>
+      <td><a href="https://github.com/AlbaCodePe">https://github.com/AlbaCodePe</a></td>
+    </tr>
+    <tr>
+      <td><b>Fernanda Salomé</b></td>
+      <td><a href="U202015772@upc.edu.pe">U202015772@upc.edu.pe</a></td>
+      <td><a href="https://github.com/JackelineSalome">https://github.com/JackelineSalome</a></td>
+    </tr>
+    <tr>
+      <td><b>Jorgeluis Escobedo</b></td>
+      <td><a href="U201924132@upc.edu.pe">U201924132@upc.edu.pe</a></td>
+      <td><a href="https://github.com/JorgEsco98">https://github.com/JorgEsco98</a></td>
+    </tr>
+    <tr>
+      <td><b>Wilfredo Futuri</b></td>
+      <td><a href="U20201B32@upc.edu.pe">U20201B32@upc.edu.pe</a></td>
+      <td><a href="https://github.com/wfuturi35">https://github.com/wfuturi35</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 6.1.3. Source Code Style Guide & Conventions.
+
+Para esta parte del trabajo y futuros presentables, nos planteamos utilizar las convenciones descritas en la guía “HTML Style Guide and Coding Conventions”. Donde podemos encontrar convenciones como las siguientes:
+-	Declaración del tipo de documento en HTML.
+-	Declaraciones de nombres de elementos en minúsculas en HTML.
+-	Cerrar todos los elementos o secciones en HTML.
+-	Uso de atributos en minúsculas y valores en HTML.
+-	Utilizar comillas dobles para los valores de los atributos en HTML.
+
+Estas convenciones nos ayudan a mantener una consistencia, flexibilidad y legibilidad de nuestro código HTML, además nos beneficiará para que otras personas puedan entender el código y poder darle mantenimiento.
+
+### 6.1.4. Software Deployment Configuration.
+
+Para desplegar nuestra landing page, utilizamos GitHub, donde se puede observar lo siguiente:
+-	Images: Se aloja las imágenes utilizadas en el landing page.
+-	Principal.css: Contiene los estilos que ayudaran a que el landing page se vea ordenado y atractivo.
+-	principal.html: Contiene la estructura del landing page por secciones.
+
+Enlace del Repositorio: https://github.com/orgs/EndUser-SI572/repositories
+
+## 6.2. Landing Page, Services & Applications Implementation.
+### 6.2.1. Sprint 1
+#### 6.2.1.1. Sprint Planning 1.
+
+El Sprint Planning es un evento o reunión que se realiza al inicio de cada Sprint en el marco de la metodología Scrum. Durante esta reunión, el equipo Scrum se reúne para planificar y definir la meta del Sprint, así como para discutir el backlog del producto y seleccionar los elementos de trabajo que se abordarán en el próximo Sprint. El equipo de desarrollo también define los elementos del backlog del sprint y crea un plan detallado para poder completarlos. La reunión suele durar unas pocas horas y participan todos los miembros del equipo Scrum, incluyendo el Scrum Master y el Product Owner. El objetivo principal del Sprint Planning es crear una visión clara y compartida de lo que se va a conseguir durante el Sprint y cómo se va a lograr.
+
+#### 6.2.1.2. Sprint Backlog 1.
+#### 6.2.1.3. Development Evidence for Sprint Review.
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.1.5. Execution Evidence for Sprint Review.
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.1.8. Team Collaboration Insights during Sprint.
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2.
+#### 6.2.2.2. Sprint Backlog 2.
+#### 6.2.2.3. Development Evidence for Sprint Review.
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.2.8. Team Collaboration Insights during Sprint.
+### 6.2.3. Sprint 3
+#### 6.2.3.1. Sprint Planning 3.
+#### 6.2.3.2. Sprint Backlog 3.
+#### 6.2.3.3. Development Evidence for Sprint Review.
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.3.5. Execution Evidence for Sprint Review.
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.3.8. Team Collaboration Insights during Sprint.
+## 6.3. Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
+### 6.3.2. Registro de Entrevistas.
+### 6.3.3. Evaluaciones según heurísticas.
+
+Las opiniones fueron positivas en su mayoría debido a que todavía se ha mostrado poco del producto final ya que falta la parte de conexión de servicios del back con el front. La mayoría de los usuarios destacaron el potencial del proyecto, pero también señalaron que una demostración completa, sería crucial para evaluar plenamente la funcionalidad y la usabilidad del producto.
+
+## 6.4. Video About-the-Product.
+ 
+# Conclusiones
+## Conclusiones y recomendaciones.
+
+-	La implementación de una aplicación de monitoreo y control de invernaderos utilizando tecnologías como Angular para el front-end y Spring Boot para el back-end ofrece una solución eficiente y escalable para mejorar la gestión agrícola en entornos controlados.
+
+-	La arquitectura de microservicios proporciona flexibilidad y modularidad, lo que permite una fácil adaptación y escalabilidad de la aplicación a medida que las necesidades y requisitos del negocio evolucionan.
+
+-	La colaboración entre equipos de desarrollo front-end y back-end ha sido fundamental para garantizar la coherencia y la integración adecuada de los componentes de la aplicación, asegurando así una experiencia de usuario fluida y consistente.
+
+-	La adopción de prácticas de desarrollo ágil, como Scrum o Kanban, ha permitido un ciclo de desarrollo iterativo y continuo, facilitando la entrega de valor de manera incremental y respondiendo de manera efectiva a los cambios en los requisitos del cliente.
+
+-	La realización de pruebas exhaustivas, tanto a nivel unitario como de integración, ha garantizado la calidad y la fiabilidad del software desarrollado, reduciendo la aparición de errores y proporcionando una experiencia de usuario más robusta.
+
+-	La integración con servicios externos, como APIs meteorológicas y de terceros, ha enriquecido la funcionalidad de la aplicación, proporcionando datos precisos y relevantes para mejorar la toma de decisiones por parte de los usuarios.
+
+-	El diseño de una interfaz de usuario intuitiva y fácil de usar ha sido un factor clave para garantizar la usabilidad y la satisfacción del usuario, permitiendo a los jardineros principiantes acceder y utilizar la aplicación de manera efectiva sin la necesidad de formación especializada.
+
+-	La implementación de medidas de seguridad y privacidad de datos ha sido prioritaria en todo el proceso de desarrollo, garantizando la protección de la información sensible de los usuarios y cumpliendo con las regulaciones y estándares de seguridad vigentes.
+
+-	La retroalimentación continua de los usuarios ha sido fundamental para identificar áreas de mejora y optimización en la aplicación, permitiendo ajustes y ajustes en función de las necesidades y preferencias del mercado.
+
+-	La entrega exitosa de la aplicación de monitoreo y control de invernaderos representa un hito importante en el camino hacia la innovación tecnológica en el sector agrícola, brindando oportunidades para mejorar la productividad, la sostenibilidad y la rentabilidad en la gestión de cultivos en invernaderos.
+
+## Video About-the-Team.
+# Bibliografía
+
+> Novagric. (2020). Problemas más frecuentes de Ventilación en Invernaderos. Recuperado de https://www.novagric.com/es/blog/articulos/problemas-frecuentes-ventilacion-invernaderos
+
+> Verdevidaverde (2021). Si tienes un invernadero debes conocer estos 6 consejos para mantenerlos. Recuperado de https://verdevidaverde.com/consejos-para-cuidar-tu-invernadero
+
+> Drygair. (2022). Cómo mejorar la producción de los invernaderos. Recuperado de https://drygair.com/es/blog-es/como-mejorar-la-produccion-en-invernadero-4-consejos-para-mejorar-el-rendimiento-y-reducir-los-costes/
+
+# Anexos
+
+Enlace Diagramas Software Architecture: https://online.visual-paradigm.com/app/diagrams/#diagram:proj=0&type=C4Model&width=11&height=8.5&unit=inch&gallery=/repository/00af6def-9277-405f-9cdc-1a12d80f66e2.xml
+
+One Drive: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20201b051_upc_edu_pe/EisnoZ-uEpRPpHDeHGSKOWsBkGwOHLhw72JG2sX8ot47UQ?e=gXASxR
+
+Aplicatión prototype: https://drive.google.com/file/d/1MO_fAr9-tVZTZ0I6HNMG3Zn0aOvW0yOK/view?usp=sharing
+
+Landing page: https://enduser-si572.github.io/landingPage/
+
+Figma design: https://www.figma.com/file/IGHX5CGbRdkKT8Xrw6mS8A/AgriWatch?type=design&node-id=2-4&mode=design&t=0xqtxZ9BJZ3J9NhP-0
+
+Wokwi:
+[AgriWatch v1 - Wokwi ESP32, STM32, Arduino Simulator](https://wokwi.com/projects/398174625124143105)
