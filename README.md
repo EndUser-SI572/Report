@@ -150,36 +150,36 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
     - [6.1.4. Software Deployment Configuration.](#614-software-deployment-configuration)
   - [6.2. Landing Page, Services \& Applications Implementation.](#62-landing-page-services--applications-implementation)
     - [6.2.1. Sprint 1](#621-sprint-1)
-      - [6.2.1.1. Sprint Planning 1.](#6211-sprint-planning-1)
-      - [6.2.1.2. Sprint Backlog 1.](#6212-sprint-backlog-1)
-      - [6.2.1.3. Development Evidence for Sprint Review.](#6213-development-evidence-for-sprint-review)
-      - [6.2.1.4. Testing Suite Evidence for Sprint Review.](#6214-testing-suite-evidence-for-sprint-review)
-      - [6.2.1.5. Execution Evidence for Sprint Review.](#6215-execution-evidence-for-sprint-review)
-      - [6.2.1.6. Services Documentation Evidence for Sprint Review.](#6216-services-documentation-evidence-for-sprint-review)
-      - [6.2.1.7. Software Deployment Evidence for Sprint Review.](#6217-software-deployment-evidence-for-sprint-review)
-      - [6.2.1.8. Team Collaboration Insights during Sprint.](#6218-team-collaboration-insights-during-sprint)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+      - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+      - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
     - [6.2.2. Sprint 2](#622-sprint-2)
-      - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
-      - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
-      - [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review)
-      - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
-      - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
-      - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
-      - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
-      - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-2)
+      - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+      - [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+      - [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
     - [6.2.3. Sprint 3](#623-sprint-3)
-      - [6.2.3.1. Sprint Planning 3.](#6231-sprint-planning-3)
-      - [6.2.3.2. Sprint Backlog 3.](#6232-sprint-backlog-3)
-      - [6.2.3.3. Development Evidence for Sprint Review.](#6233-development-evidence-for-sprint-review)
-      - [6.2.3.4. Testing Suite Evidence for Sprint Review.](#6234-testing-suite-evidence-for-sprint-review)
-      - [6.2.3.5. Execution Evidence for Sprint Review.](#6235-execution-evidence-for-sprint-review)
-      - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
-      - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
-      - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
-  - [6.3. Validation Interviews.](#63-validation-interviews)
-    - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
-    - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
-    - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Sprint Backlog 3](#6232-sprint-backlog-3)
+      - [6.2.3.3. Development Evidence for Sprint Review](#6233-development-evidence-for-sprint-review)
+      - [6.2.3.4. Testing Suite Evidence for Sprint Review](#6234-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.5. Execution Evidence for Sprint Review](#6235-execution-evidence-for-sprint-review)
+      - [6.2.3.6. Services Documentation Evidence for Sprint Review](#6236-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.7. Software Deployment Evidence for Sprint Review](#6237-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.8. Team Collaboration Insights during Sprint](#6238-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product.](#64-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
@@ -2152,39 +2152,345 @@ Enlace del Repositorio: https://github.com/orgs/EndUser-SI572/repositories
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 ### 6.2.1. Sprint 1
-#### 6.2.1.1. Sprint Planning 1.
+#### 6.2.1.1. Sprint Planning 1
 
 El Sprint Planning es un evento o reunión que se realiza al inicio de cada Sprint en el marco de la metodología Scrum. Durante esta reunión, el equipo Scrum se reúne para planificar y definir la meta del Sprint, así como para discutir el backlog del producto y seleccionar los elementos de trabajo que se abordarán en el próximo Sprint. El equipo de desarrollo también define los elementos del backlog del sprint y crea un plan detallado para poder completarlos. La reunión suele durar unas pocas horas y participan todos los miembros del equipo Scrum, incluyendo el Scrum Master y el Product Owner. El objetivo principal del Sprint Planning es crear una visión clara y compartida de lo que se va a conseguir durante el Sprint y cómo se va a lograr.
 
-#### 6.2.1.2. Sprint Backlog 1.
-#### 6.2.1.3. Development Evidence for Sprint Review.
-#### 6.2.1.4. Testing Suite Evidence for Sprint Review.
-#### 6.2.1.5. Execution Evidence for Sprint Review.
-#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
-#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
-#### 6.2.1.8. Team Collaboration Insights during Sprint.
+<table>
+  <thead>
+    <tr>
+      <th>Sprint</th>
+      <th>Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan = "2">Sprint Planning Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Date</td>
+      <td>21/04/2024</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>12 horas</td>
+    </tr>
+    <tr>
+      <td>Location o Platform</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared by</td>
+      <td>Edwin Abdias Lopez Huaman – U20201B051</td>
+    </tr>
+    <tr>
+      <td>Attendess (to planning meeting)</td>
+      <td>Fernanda Salome<br>Daniel Bramdom<br>Willfredo Futuri<br>Jorgeluis</td>
+    </tr>
+    <tr>
+      <td>Sprint 0 Review Summary</td>
+      <td>- Diseño y desarrollo del landing page</td>
+    </tr>
+    <tr>
+      <td>Sprint 0 Retrospective Summary</td>
+      <td>- Completar los diseños y estandarizar el lenguaje usado en el desarrollo y presentación del landing page</td>
+    </tr>
+    <tr>
+      <td colspan = "2">Sprint Goal & User Stories</td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Goal</td>
+      <td>Implementar y desplegar Landing Page</td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Velocity</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Point</td>
+      <td>15</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.2.1.2. Sprint Backlog 1
+
+<table>
+  <thead>
+    <tr>
+      <th>Sprint</th>
+      <th colspan = "8">Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan = "2">User Story</th>
+      <th colspan = "6">Work-Item/Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Tittle</th>
+      <th>Id</th>
+      <th>Tittle</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / InProcess / ToReview / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Visualizar una landing page clara y atractiva</td>
+      <td>W-01</td>
+      <td>Diseño</td>
+      <td>Como visitante, quiero ver una landing page clara y atractiva para que pueda entender rápidamente el propósito del sitio web.</td>
+      <td>3 hours</td>
+      <td>Fernanda</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Visualizar una sección sobre nosotros en el landing page.</td>
+      <td>W-02</td>
+      <td>Sección nosotros</td>
+      <td>Como visitante, quiero ver una sección en el landing page que hable sobre el startup para saber el propósito y con quiénes estoy tratando al momento de usar su aplicación web.</td>
+      <td>3 hours</td>
+      <td>Edwin</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Visualizar contenido relevante en el landing page.</td>
+      <td>W-03</td>
+      <td>Contenido</td>
+      <td>Como usuario, quiero que la landing page tenga contenido relevante para que pueda tomar una decisión informada.</td>
+      <td>3 hours</td>
+      <td>Will</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Acceder desde cualquier dispositivo a la landing page.</td>
+      <td>W-04</td>
+      <td>Accesibilidad</td>
+      <td>Como usuario, quiero que la landing page sea accesible desde diferentes dispositivos para que pueda accedes al sitio web desde cualquier lugar.</td>
+      <td>3 hours</td>
+      <td>Brando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Desplegar la landing page</td>
+      <td>W-05</td>
+      <td>Desplegar</td>
+      <td>Como startup, quiero desplegar una landing page para informar sobre nuestra aplicación.</td>
+      <td>1 hour</td>
+      <td>Jorgeluis</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.2.1.3. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit id</th>
+    <th>Commit Message</th>
+    <th>Commited on (Date)</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan = "13">https://github.com/orgs/EndUser-SI572/repositories</td>
+      <td>(origin/publish-property, publish-property)</td>
+      <td>f847f87bd8ee4b8d283b8fb34754a40e263aba54</td>
+      <td>add publish section</td>
+      <td>add publish section</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/register-property)</td>
+      <td>1e5120252a3032d0880a7259b01107fe57e97c8c</td>
+      <td>add property-form v1</td>
+      <td>Fri Sep 29 00:51:13 2023</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/register-property)</td>
+      <td>763cf114f59aeaea407bf730737dbf03bef41f63</td>
+      <td>add property-form v1</td>
+      <td>Fri Sep 29 00:51:13 2023</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/forum-list)</td>
+      <td>6ec42df72e5915b85bf64abe97b00a0b28ce214e</td>
+      <td>Forum Secction completed</td>
+      <td>Sun Sep 24 04:43:39 2023</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/forum-list)</td>
+      <td>0b6e4ce46109b7782e2c8bca87f6015c8edad02d</td>
+      <td>Forum Secction completed</td>
+      <td>Sun Sep 24 04:43:39 2023</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/forum-list)</td>
+      <td>0b6e4ce46109b7782e2c8bca87f6015c8edad02d</td>
+      <td>forum-list and forum-see</td>
+      <td>Sat Sep 23 18:19:13 2023</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>388e626cf4227499d635419498efbcb82e904019</td>
+      <td>section message completed</td>
+      <td>Sat Sep 23 11:01:32 2023</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>047af980e7dac86742374bc749ad6f67e3e7d020</td>
+      <td>gender added</td>
+      <td>Fri Sep 22 19:53:25 2023</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>440e9684fe33d14bbeb8b31ae34651e56d0a4d5e</td>
+      <td>Send message completed</td>
+      <td>Fri Sep 22 19:53:25 2023</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>e5622fbbfb97e9a8726a551f1381228c443d54d7</td>
+      <td>see and qualify profile completed</td>
+      <td>Fri Sep 22 19:53:25 2023</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>c3dcb0c46abe130af637230f2a5f56fd34668bb2</td>
+      <td>see post desing completed</td>
+      <td>Fri Sep 22 19:53:25 2023</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>dc4daf6754d9002b3a7055e6e03e335259f13a71</td>
+      <td>list post desing completed</td>
+      <td>Fri Sep 22 19:53:25 2023</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/register)</td>
+      <td>61a1b0e6233afe0e988db3a81ee7a79c8ae06af9</td>
+      <td>Edit profile dising  completed</td>
+      <td>Thu Sep 21 23:55:11 2023</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review
+
+Para esta entrega se hiso pruebas de rendimientos usando la aplicación de selenium
+
+<img src="images/sprint 1/testing.png" width=1000>
+
+#### 6.2.1.5. Execution Evidence for Sprint Review
+
+*Página principal*
+<img src="images/sprint 1/execution1.png" width=1000>
+
+*Registrar nueva planta*
+<img src="images/sprint 1/execution2.png" width=1000>
+
+*Vista del Perfil*
+<img src="images/sprint 1/execution3.png" width=1000>
+
+*Vista de foros*
+<img src="images/sprint 1/execution4.png" width=1000>
+
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review
+
+<table>
+  <thead>
+    <th>Responsable</th>
+    <th>Actividad</th>
+    <th>Comentario</th>
+    <th>Estado</th>
+    <th>Fechas</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Developer 1</b></td>
+      <td>Diseño de interfaz de usuario</td>
+      <td>Crear mockups y prototipos para la interfaz de usuario utilizando herramientas como Figma o Sketch.</td>
+      <td>Done</td>
+      <td>25/04/2024</td>
+    </tr>
+    <tr>
+      <td><b>Developer 2</b></td>
+      <td>Desarrollo de la página de inicio</td>
+      <td>Codificar la página de inicio de la aplicación, incluyendo la visualización de datos en tiempo real.</td>
+      <td>Done</td>
+      <td>26/04/2024</td>
+    </tr>
+    <tr>
+      <td><b>Developer 3</b></td>
+      <td>Implementación del dashboard</td>
+      <td>Desarrollar el panel de control que muestre la información de humedad, temperatura y activación de aspersores.</td>
+      <td>Done</td>
+      <td>27/04/2024</td>
+    </tr>
+    <tr>
+      <td><b>Developer 4</b></td>
+      <td>Integración de API de sensores</td>
+      <td>Conectar la aplicación con los sensores de humedad y temperatura dentro del invernadero mediante una API.</td>
+      <td>Pendiente</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><b>Developer 5</b></td>
+      <td>Funcionalidad de registro de plantas</td>
+      <td>Desarrollar la funcionalidad para que los usuarios puedan registrar y administrar las plantas en la aplicación.</td>
+      <td>Done</td>
+      <td>29/04/2024</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+El frontend fue desplegado en el servicio de hosting gratuito de Firebase
+
+<img src="images/sprint 1/deployment.png" width=1000>
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint
+
+*Networking frontend*
+
+<p align="center">
+  <img src="images/sprint 1/collaboration1.png" width=300>
+  <img src="images/sprint 1/collaboration2.png" width=300>
+</p>
+
+<img align="center" src="images/sprint 1/collaboration3.png" width=500>
+
 ### 6.2.2. Sprint 2
-#### 6.2.2.1. Sprint Planning 2.
-#### 6.2.2.2. Sprint Backlog 2.
-#### 6.2.2.3. Development Evidence for Sprint Review.
-#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
-#### 6.2.2.5. Execution Evidence for Sprint Review.
-#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
-#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
-#### 6.2.2.8. Team Collaboration Insights during Sprint.
+#### 6.2.2.1. Sprint Planning 2
+#### 6.2.2.2. Sprint Backlog 2
+#### 6.2.2.3. Development Evidence for Sprint Review
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review
+#### 6.2.2.5. Execution Evidence for Sprint Review
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+#### 6.2.2.8. Team Collaboration Insights during Sprint
 ### 6.2.3. Sprint 3
-#### 6.2.3.1. Sprint Planning 3.
-#### 6.2.3.2. Sprint Backlog 3.
-#### 6.2.3.3. Development Evidence for Sprint Review.
-#### 6.2.3.4. Testing Suite Evidence for Sprint Review.
-#### 6.2.3.5. Execution Evidence for Sprint Review.
-#### 6.2.3.6. Services Documentation Evidence for Sprint Review.
-#### 6.2.3.7. Software Deployment Evidence for Sprint Review.
-#### 6.2.3.8. Team Collaboration Insights during Sprint.
-## 6.3. Validation Interviews.
-### 6.3.1. Diseño de Entrevistas.
-### 6.3.2. Registro de Entrevistas.
-### 6.3.3. Evaluaciones según heurísticas.
+#### 6.2.3.1. Sprint Planning 3
+#### 6.2.3.2. Sprint Backlog 3
+#### 6.2.3.3. Development Evidence for Sprint Review
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review
+#### 6.2.3.5. Execution Evidence for Sprint Review
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review
+#### 6.2.3.8. Team Collaboration Insights during Sprint
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+### 6.3.2. Registro de Entrevistas
+### 6.3.3. Evaluaciones según heurísticas
 
 Las opiniones fueron positivas en su mayoría debido a que todavía se ha mostrado poco del producto final ya que falta la parte de conexión de servicios del back con el front. La mayoría de los usuarios destacaron el potencial del proyecto, pero también señalaron que una demostración completa, sería crucial para evaluar plenamente la funcionalidad y la usabilidad del producto.
 
