@@ -2467,7 +2467,9 @@ El frontend fue desplegado en el servicio de hosting gratuito de Firebase
   <img src="images/sprint 1/collaboration2.png" width=300>
 </p>
 
-<img align="center" src="images/sprint 1/collaboration3.png" width=500>
+<p align="center">
+  <img src="images/sprint 1/collaboration3.png" width=500>
+</p>
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2
