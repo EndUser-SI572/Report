@@ -45,6 +45,16 @@
       <td>Edwin Lopez, Jackeline Salomé, Brando Romero, Wilfredo Futuri, Jorgeluis Escobedo</td>
       <td>Se realizó un primer avance de los capítulos 1, 2, 3 y 4.</td>
     </tr>
+    <tr>
+      <td>2.0</td>
+      <td>08/06/2024</td>
+      <td>Edwin Lopez, Jackeline Salomé, Wilfredo Futuri</td>
+      <td>Se completo el sprint 2 y todas sus actividades<br>
+        - Implementación de los servicios en backend.<br>
+        - Implementación de los sensores y actuadores en wokwi<br>
+        - Implementación del front end y sus funcionalidades
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -206,20 +216,34 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
         <h3>Jackeline Fernanda Salomé Nina</h3>
         <b><i>TB1</i></b><br>
         Se aportó al equipo haciendo el capítulo 2, parte del capítulo 3 y unas entrevista además del avance de la documentación en markdown.
+        <b><i>TP</i></b><br>
+        Se aportó con la elbaoración de wireframes y mockups para la realización del front.
+        <b><i>TB2</i></b><br>
+        Se aportó con la elaboración del proyecto en wokwi.
+        <b><i>TF</i></b><br>
+        Se aportó con la conexión del wokwi al back y la documentación en markdown.
         <h3>Jorgeluis Escobedo Mori</h3>
         <b><i>TB1</i></b><br>
-        <!--Colocar student outcome aqui-->
+        Se aportó al equipo con el desarrollo del Capitulo 4 y presentación del Trabajo
         <h3>Brando Daniel Romero Loma</h3>
         <b><i>TB1</i></b><br>
-        <!--Colocar student outcome aqui-->
+        Durante la realizacion del proyecto se llego aportar diferentes formas de la realizacion del trabajo
         <h3>Wilfredo Futuri Illa</h3>
         <b><i>TB1</i></b><br>
-        <!--Colocar student outcome aqui-->
+        Nos reunimos para coordinar los temas a trabajar y se distribuyo el trabajo para ser mas eficientes y colaborar en equipo.
+        <b><i>TP</i></b><br>
+        Se aportó con la primera versión de front.
+        <b><i>TB2</i></b><br>
+        Se aportó con la versión actualizada del front.
         <h3>Edwin Abdias Lopez Huaman</h3>
         <b><i>TB1</i></b><br>
-        <!--Colocar student outcome aqui-->
+        Para esta entrega fue de suma importancia las reuniones continuas donde se presentaba el avance de cada uno de los integrantes y también resolver las dudas.
+        <b><i>TP</i></b><br>
+        Se aportó con la primera versión de front.
+        <b><i>TB2</i></b><br>
+        Se aportó con el desarrollo del back.
       </td>
-      <td></td>
+      <td>La comunicación oral es muy efectiva ya nos permite expresar más claramente nuestras ideas y que los demás miembros del equipo puedan ayudarnos a resolver nuestras dudas o atiendan mejor como deben avanzar y así todos tengamos bien claro nuestro objetivo</td>
     </tr>
     <tr>
       <td>Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</td>
@@ -227,20 +251,34 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
         <h3>Jackeline Fernanda Salomé Nina</h3>
         <b><i>TB1</i></b><br>
         Acordamos como grupo trabajar sobre el sector agrícola a un nivel de aficionados y principiantes.
+        <b><i>TP</i></b><br>
+        El aporte de mockups y wireframes fueron diseñados para el sector en el que se está trabajando.
+        <b><i>TB2</i></b><br>
+        El aporte del proyecto en Wokwi permite el desarrollo de la aplicación para el sector que se está trabajando.
+        <b><i>TF</i></b><br>
+        Se aportó con la conexión del wokwi al back, integrando la solución IoT a la aplicación.
         <h3>Jorgeluis Escobedo Mori</h3>
         <b><i>TB1</i></b><br>
-        <!--Colocar student outcome aqui-->
+        Se cuenta con el conocimiento de la solucion de software para el sector agrícola.
         <h3>Brando Daniel Romero Loma</h3>
         <b><i>TB1</i></b><br>
-        <!--Colocar student outcome aqui-->
+        La comunicacion que tuvimos mediante WhatsApp se dio a una solucion respecto al trabajo a realizar
         <h3>Wilfredo Futuri Illa</h3>
         <b><i>TB1</i></b><br>
-        <!--Colocar student outcome aqui-->
+        Para el desarrollo de la TB1 tuvimos que investigar sobre el negocio, para que de esta manera podamos solucionar el problema de irrigación con soluciones de software.
+        <b><i>TP</i></b><br>
+        Para el desarrollo de la primera versión del front se tuvo que evaluar la interfaz para el sector detectado.
+        <b><i>TB2</i></b><br>
+        Para la actualización de la interfaz se tuvo en cuenta que tenga una buena usabilidad.
         <h3>Edwin Abdias Lopez Huaman</h3>
         <b><i>TB1</i></b><br>
-        <!--Colocar student outcome aqui-->
+        Nuestra comunicación se dio a través de whatsapp y también documentos compartidos en one drive donde era de suma importancia que cada miembro de equipo estuviera atento a los avances de los demás.
+        <b><i>TP</i></b><br>
+        Para el desarrollo de la primera versión del front se tuvo que evaluar la interfaz para el sector detectado.
+        <b><i>TB2</i></b><br>
+        Para el desarrollo del back se tuvo en cuenta al sector en el que se trabaja y los requerimientos necesarios para los mismos.
       </td>
-      <td></td>
+      <td>La comunicación escrita es muy importante por así se deja evidencia de algunos acuerdos que posteriormente pueden servir para tomar decisiones. Además, así se puede trabajar de manera asincrónica ya que cada uno de los miembros puede completar sus deberes de forma efectiva.</td>
     </tr>
   </tbody>
 </table>
@@ -267,10 +305,10 @@ Buscamos liderar la agricultura digital global con soluciones tecnológicas inno
 | **Integrante**                         | **Perfil**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | **Imagen**                                                                                                       |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | **Edwin Abdias Lopez Huaman**              | Soy una persona muy responsable y proactiva. A lo largo de mis años en la universidad, he tenido el privilegio de participar en diversos equipos, lo qué me ha brindado una valiosa experiencia en el trabajo colaborando. Mi trayectoria académica me ha dotado de sólidos conocimientos en una variedad de lenguajes de programación, así como en el uso de frameworks para el desarrollo tanto de aplicaciones web y móviles. Estoy apasionado por seguir creciendo en mi campo.                                                                                                                            | <img src="members/edwin-profile.jpg" alt="Imagen de Edwin" width="300"/>                 |                                                
-| **Jorgeluis Escobedo Mori**             | Soy estudiante de la carrera de ingeniería de software en la UPC. Me considero una persona seria, responsable y con deseos de dejar mi marca en el futuro. Mi interés está en el desarrollo de aplicaciones y cómo estas satisfacen las necesidades de los usuarios. Mis habilidades principales son el trabajo en equipo y mi adaptabilidad a cualquier situación. En el desarrollo del proyecto, apoyaré con mis conocimientos aprendidos en el transcurso de mi carrera, y en el entorno laboral.                                                         | <img src="members/Jorgeluis-profile.png" alt="Imagen de Jorgeluis" width="300">                |                                       
+| **Jorgeluis Escobedo Mori**             | Soy estudiante de la carrera de ingeniería de software en la UPC. Me considero una persona seria, responsable y con deseos de dejar mi marca en el futuro. Mi interés está en el desarrollo de aplicaciones y cómo estas satisfacen las necesidades de los usuarios. Mis habilidades principales son el trabajo en equipo y mi adaptabilidad a cualquier situación. En el desarrollo del proyecto, apoyaré con mis conocimientos aprendidos en el transcurso de mi carrera, y en el entorno laboral.                                                         | <img src="members/Jorgeluis-profile.jpg" alt="Imagen de Jorgeluis" width="300">                |                                       
 | **Jackeline Fernanda Salomé Nina** | Soy Jackeline Fernanda Salomé Nina, Me considero una persona responsable con mis trabajos, usualmente puntual, pero siempre dispuesta a ayudar a mis compañeros con las dudas que presenten. En los trabajos grupales intento dar lo mejor de mí, a pesar de tal vez no conocer mucho del tema abordado. En este trabajo daré todo de mí para no perjudicar a mis compañeros y alcanzar los objetivos deseados.                                                                                                                        | <img src="members/Fernanda-profile.jpeg" alt="Imagen de Fernanda" width="300"/>   |                                                              
 | **Brando Daniel Romero Loma**     | Mi nombre es Daniel Romero Loma y me encuentro estudiando la carrera de Ingeniería de Software. Tengo 19 años y desde hace varios años me han interesado los temas relacionados a la programación y el desarrollo de software. Tengo experiencia programando en varios lenguajes, pero me especializo en tecnologías relacionadas a C++, C#, Python. | <img src="members/Brando-profile.jpg" alt="Imagen de Brando" width="300"/> |                                                                  
-| **Wilfredo Futuri Illa**     |                                                                                                                               | <img src="members/Wilfredo-profile.png" alt="Imagen de Wilfredo" width="300"/>      |
+| **Wilfredo Futuri Illa**     |    Soy estudiante de la carrera de Ingeniería de Software, me considero una persona muy curiosa y en mis tiempos desarrollo proyectos propios de mi interés para mejorar mis habilidades técnicas en programación. Asimismo, me interesa trabajar en equipo y poder entregar excelentes trabajos.      | <img src="members/Wilfredo-profile.jpg" alt="Imagen de Wilfredo" width="300"/>      |
 
 
 
@@ -2306,7 +2344,7 @@ El Sprint Planning es un evento o reunión que se realiza al inicio de cada Spri
       <td>(origin/publish-property, publish-property)</td>
       <td>f847f87bd8ee4b8d283b8fb34754a40e263aba54</td>
       <td>add publish section</td>
-      <td>add publish section</td>
+      <td>Fri Sep 29 17:05:32 2023</td>
     </tr>
     <tr>
       <td>(origin/feature/register-property)</td>
@@ -2472,14 +2510,458 @@ El frontend fue desplegado en el servicio de hosting gratuito de Firebase
 </p>
 
 ### 6.2.2. Sprint 2
+
+En este Sprint 2, el equipo se enfocará en implementar los servicios backend necesarios para gestionar usuarios y plantas en la aplicación IoT. Esto incluirá la creación de un CRUD (Create, Read, Update, Delete) completo para ambos modelos, así como la implementación de medidas de seguridad mediante tokens JWT para asegurar los endpoints. Además, se realizará la simulación de sensores IoT (temperatura, humedad y luz) utilizando la plataforma Wokwi, y se integrarán estos datos simulados con el backend de la aplicación. Este sprint está diseñado para proporcionar una base sólida de funcionalidad y seguridad para la aplicación, permitiendo un manejo eficiente y seguro de la información de los usuarios y sus plantas.
+
 #### 6.2.2.1. Sprint Planning 2
+
+<table>
+  <thead>
+    <tr>
+      <th>Sprint</th>
+      <th>Sprint 2</th>
+    </tr>
+    <tr>
+      <th colspan = "2">Sprint Planning Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Date</td>
+      <td>20/05/2024</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>3 semanas</td>
+    </tr>
+    <tr>
+      <td>Location o Platform</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared by</td>
+      <td>Edwin Abdias Lopez Huaman – U20201B051</td>
+    </tr>
+    <tr>
+      <td>Attendess (to planning meeting)</td>
+      <td>Fernanda Salome<br>Daniel Bramdom<br>Willfredo Futuri<br>Jorgeluis</td>
+    </tr>
+    <tr>
+      <td>Sprint 2 Review Summary</td>
+      <td>- Corrección y mejora de la documentación como el informe y presentación de power point.</td>
+    </tr>
+    <tr>
+      <td>Sprint 0 Retrospective Summary</td>
+      <td>- Mejorar el diseño de la landing page y las interfaces del frontend</td>
+    </tr>
+    <tr>
+      <td colspan = "2">Sprint Goal & User Stories</td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Goal</td>
+      <td>Implementar y desplegar el bacnkend y simuladores (sensores y actuadores)</td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Velocity</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Point</td>
+      <td>15</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.2.2. Sprint Backlog 2
+
+<table>
+  <thead>
+    <tr>
+      <th colspan = "7">Sprint 2</th>
+    </tr>
+    <tr>
+      <th colspan = "2">User Story</th>
+      <th colspan = "5">Work-Item/Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Tittle</th>
+      <th>Id</th>
+      <th>Tittle</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Registro de usuario</td>
+      <td>Crear modelo de usuario</td>
+      <td>Definir el modelo de usuario en el backend.</td>
+      <td>3h</td>
+      <td>Edwin</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Registro de usuario</td>
+      <td>Crear servicio de registro</td>
+      <td>Implementar el servicio para registrar usuarios.</td>
+      <td>3h</td>
+      <td>Edwin</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Registro de usuario</td>
+      <td>Implementar controlador REST</td>
+      <td>Crear el controlador REST para manejar el registro de usuarios.</td>
+      <td>3h</td>
+      <td>Edwin</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Inicio de sesión</td>
+      <td>Crear servicio de autenticación</td>
+      <td>Implementar el servicio para la autenticación de usuarios.</td>
+      <td>4h</td>
+      <td>Edwin</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Inicio de sesión</td>
+      <td>Implementar controlador REST</td>
+      <td>Crear el controlador REST para manejar el inicio de sesión.</td>
+      <td>3h</td>
+      <td>Edwin</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Notificaciones de bajo nivel de humedad</td>
+      <td>Configurar simulación de sensores</td>
+      <td>Configurar sensores de humedad en Wokwi.</td>
+      <td>3h</td>
+      <td>Jorgeluis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Notificaciones de bajo nivel de humedad</td>
+      <td>Integrar Wokwi con backend</td>
+      <td>Integrar datos simulados de Wokwi con el backend.</td>
+      <td>4h</td>
+      <td>Jorgeluis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Registro de múltiples plantas</td>
+      <td>Crear modelo de planta</td>
+      <td>Definir el modelo de planta en el backend.</td>
+      <td>3h</td>
+      <td>Jorgeluis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Registro de múltiples plantas</td>
+      <td>Crear servicio de registro</td>
+      <td>Implementar el servicio para registrar plantas.</td>
+      <td>4h</td>
+      <td>Jorgeluis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Registro de múltiples plantas</td>
+      <td>Implementar controlador REST</td>
+      <td>Crear el controlador REST para manejar el registro de plantas.</td>
+      <td>3h</td>
+      <td>Jorgeluis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Nivel de temperatura</td>
+      <td>Configurar simulación de sensores</td>
+      <td>Configurar sensores de temperatura en Wokwi.</td>
+      <td>3h</td>
+      <td>Fernanda</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Nivel de temperatura</td>
+      <td>Integrar Wokwi con backend</td>
+      <td>Integrar datos simulados de Wokwi con el backend.</td>
+      <td>4h</td>
+      <td>Fernanda</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td>Control remoto de riego</td>
+      <td>Configurar sistema de riego</td>
+      <td>Configurar sistema de riego automático en Wokwi.</td>
+      <td>4h</td>
+      <td>Brando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td>Control remoto de riego</td>
+      <td>Crear servicio de control remoto</td>
+      <td>Implementar el servicio para el control remoto de riego.</td>
+      <td>5h</td>
+      <td>Wilfredo</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.2.3. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit id</th>
+    <th>Commit Message</th>
+    <th>Commited on (Date)</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan = "13">https://github.com/orgs/EndUser-SI572/repositories</td>
+      <td>(origin/publish-property, publish-property)</td>
+      <td>f847f87bd8ee4b8d283b8fb34754a40e263aba54</td>
+      <td>add publish section</td>
+      <td>20/05/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/register-property)</td>
+      <td>1e5120252a3032d0880a7259b01107fe57e97c8c</td>
+      <td>add property-form v1</td>
+      <td>20/05/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/register-property)</td>
+      <td>763cf114f59aeaea407bf730737dbf03bef41f63</td>
+      <td>add property-form v1</td>
+      <td>21/05/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/forum-list)</td>
+      <td>6ec42df72e5915b85bf64abe97b00a0b28ce214e</td>
+      <td>Forum Secction completed</td>
+      <td>21/05/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/forum-list)</td>
+      <td>0b6e4ce46109b7782e2c8bca87f6015c8edad02d</td>
+      <td>Forum Secction completed</td>
+      <td>25/05/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/forum-list)</td>
+      <td>0b6e4ce46109b7782e2c8bca87f6015c8edad02d</td>
+      <td>forum-list and forum-see</td>
+      <td>25/05/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>388e626cf4227499d635419498efbcb82e904019</td>
+      <td>section message completed</td>
+      <td>25/05/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>047af980e7dac86742374bc749ad6f67e3e7d020</td>
+      <td>gender added</td>
+      <td>28/05/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>440e9684fe33d14bbeb8b31ae34651e56d0a4d5e</td>
+      <td>Send message completed</td>
+      <td>29/05/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>e5622fbbfb97e9a8726a551f1381228c443d54d7</td>
+      <td>see and qualify profile completed</td>
+      <td>29/05/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>c3dcb0c46abe130af637230f2a5f56fd34668bb2</td>
+      <td>see post desing completed</td>
+      <td>29/05/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/edit-profile)</td>
+      <td>dc4daf6754d9002b3a7055e6e03e335259f13a71</td>
+      <td>list post desing completed</td>
+      <td>05/06/2024</td>
+    </tr>
+    <tr>
+      <td>(origin/feature/register)</td>
+      <td>61a1b0e6233afe0e988db3a81ee7a79c8ae06af9</td>
+      <td>Edit profile dising  completed</td>
+      <td>05/06/2024</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review
+
+Antes de proceder con la presentación de la evidencia de las pruebas realizadas durante este sprint, es importante resaltar que cada funcionalidad desarrollada ha sido sometida a un riguroso proceso de validación. Este proceso incluyó pruebas unitarias, de integración, de seguridad y de simulación, garantizando que los servicios de backend y las integraciones con los sensores IoT cumplen con los requisitos y criterios de aceptación definidos. A continuación, se presenta la evidencia detallada de las pruebas realizadas, demostrando el cumplimiento de los objetivos del sprint y la preparación para el despliegue en el entorno de producción.
+
+<img src="images/sprint 2/testing1.png" width=1000>
+<p align="center"><i>Imagen 20: Registro de un usuario nuevo</i></p>
+
+<img src="images/sprint 2/testing2.png" width=1000>
+<p align="center"><i>Imagen 21: Consultar usuario por id</i></p>
+
+<img src="images/sprint 2/testing3.png" width=1000>
+<p align="center"><i>Imagen 22: El registro de una planta</i></p>
+
+<img src="images/sprint 2/testing4.png" width=1000>
+<p align="center"><i>Imagen 23: obtener todas las plantas de un usuario</i></p>
+
 #### 6.2.2.5. Execution Evidence for Sprint Review
+
+<img src="images/sprint 2/execution 1.png" width=1000>
+<p align="center"><i>Imagen 24: Registro de usuario</i></p>
+
+<img src="images/sprint 2/execution 2.png" width=1000>
+<p align="center"><i>Imagen 24: Inicio de sesión de usuarios</i></p>
+
+<img src="images/sprint 2/execution 3.png" width=1000>
+<p align="center"><i>Imagen 25: home de la aplicación para ver tus plantas y tempertatura</i></p>
+
+<img src="images/sprint 2/execution 4.png" width=1000>
+<p align="center"><i>Imagen 26: Editar o agregar planta</i></p>
+
+<img src="images/sprint 2/execution 5.png" width=1000>
+<p align="center"><i>Imagen 27: Proyecto Wokwi leyendo datos</i></p>
+
+<img src="images/sprint 2/execution 6.png" width=1000>
+<p align="center"><i>Imagen 28: Implementación con sensores</i></p>
+
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
+
+<table>
+  <thead>
+    <th>Servicio</th>
+    <th>Método</th>
+    <th>Endpoint</th>
+    <th>Descripción</th>
+    <th>Parámetros</th>
+    <th>Respuesta</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Autenticación</td>
+      <td>POST</td>
+      <td>/api/v1/auth/login</td>
+      <td>Autentica un usuario y devuelve un token JWT.</td>
+      <td>username, password</td>
+      <td>status, message, token, user</td>
+    </tr>
+    <tr>
+      <td>POST</td>
+      <td>/api/v1/auth/register</td>
+      <td>Registra un nuevo usuario y devuelve un token JWT.</td>
+      <td>name, lastName, username, password, age, gender, cellPhone</td>
+      <td>status, message, token, user</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Gestión de usuario</td>
+      <td>POST</td>
+      <td>/api/v1/user</td>
+      <td>Agrega un nuevo usuario.</td>
+      <td>name, lastName, username, password, age, gender, cellPhone</td>
+      <td>id, name, lastName, username, age, gender, cellPhone, numberPlants</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td>/api/v1/user/{userId}</td>
+      <td>Recupera un usuario por su ID.</td>
+      <td>userId</td>
+      <td>id, name, lastName, username, age, gender, cellPhone, numberPlants</td>
+    </tr>
+    <tr>
+      <td>PUT</td>
+      <td>/api/v1/user/{userId}</td>
+      <td>Actualiza la información de un usuario.</td>
+      <td>userId, name, lastName, username, age, gender, cellPhone</td>
+      <td>id, name, lastName, username, age, gender, cellPhone, numberPlants</td>
+    </tr>
+    <tr>
+      <td rowspan="5">Gestión de Plantas</td>
+      <td>POST</td>
+      <td>/api/v1/plant</td>
+      <td>Agrega una nueva planta.</td>
+      <td>name, scientificName, idealHumidity, idealTemperature, imageUrl, userId</td>
+      <td>id, name, scientificName, idealHumidity, idealTemperature, imageUrl, userId</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td>/api/v1/plant/{plantId}</td>
+      <td>Recupera una planta por su ID.</td>
+      <td>plantId</td>
+      <td>id, name, scientificName, idealHumidity, idealTemperature, imageUrl, userId</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td>/api/v1/plant/user/{userId}</td>
+      <td>Recupera todas las plantas de un usuario.</td>
+      <td>userId</td>
+      <td>Lista de plantas con id, name, scientificName, idealHumidity, idealTemperature, imageUrl, userId</td>
+    </tr>
+    <tr>
+      <td>PUT</td>
+      <td>/api/v1/plant/{plantId}</td>
+      <td>Actualiza la información de una planta.</td>
+      <td>plantId, name, scientificName, idealHumidity, idealTemperature, imageUrl</td>
+      <td>id, name, scientificName, idealHumidity, idealTemperature, imageUrl, userId</td>
+    </tr>
+    <tr>
+      <td>DELETE</td>
+      <td>/api/v1/plant/{plantId}</td>
+      <td>Elimina una planta por su ID.</td>
+      <td>plantId</td>
+      <td>HTTP Status 200 o 404</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
+
+<img src="images/sprint 2/deployment 1.png" width=1000>
+<p align="center"><i>Imagen 27: El frontend fue desplegado en el servicio de hosting gratuito de Firebase</i></p>
+
+<img src="images/sprint 2/deployment 2.png" width=1000>
+<p align="center"><i>Imagen 28: El backend se desplego en un servicio web de azure</i></p>
+
 #### 6.2.2.8. Team Collaboration Insights during Sprint
+
+*Networking frontend*
+
+<p align="center">
+  <img src="images/sprint 1/collaboration1.png" width=300>
+  <img src="images/sprint 1/collaboration2.png" width=300>
+</p>
+
+<p align="center">
+  <img src="images/sprint 1/collaboration3.png" width=500>
+</p>
+
 ### 6.2.3. Sprint 3
 #### 6.2.3.1. Sprint Planning 3
 #### 6.2.3.2. Sprint Backlog 3
