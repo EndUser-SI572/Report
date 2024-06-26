@@ -2560,18 +2560,18 @@ En este Sprint 2, el equipo se enfocará en implementar los servicios backend ne
       <td>- Corrección y mejora de la documentación como el informe y presentación de power point.</td>
     </tr>
     <tr>
-      <td>Sprint 0 Retrospective Summary</td>
+      <td>Sprint 1 Retrospective Summary</td>
       <td>- Mejorar el diseño de la landing page y las interfaces del frontend</td>
     </tr>
     <tr>
       <td colspan = "2">Sprint Goal & User Stories</td>
     </tr>
     <tr>
-      <td>Sprint 1 Goal</td>
+      <td>Sprint 2 Goal</td>
       <td>Implementar y desplegar el bacnkend y simuladores (sensores y actuadores)</td>
     </tr>
     <tr>
-      <td>Sprint 1 Velocity</td>
+      <td>Sprint 2 Velocity</td>
       <td>20</td>
     </tr>
     <tr>
@@ -2972,14 +2972,368 @@ Antes de proceder con la presentación de la evidencia de las pruebas realizadas
 </p>
 
 ### 6.2.3. Sprint 3
+
+En este Sprint 3, el equipo se enfocará en mejorar la experiencia del usuario y optimizar el rendimiento del sistema. Esto incluirá la implementación de nuevas funcionalidades en el frontend y la optimización de la integración entre el backend y los sensores IoT. También se realizarán pruebas adicionales para asegurar la calidad del sistema y se corregirán errores detectados en el Sprint anterior. Este sprint está diseñado para perfeccionar la aplicación y garantizar que funcione de manera eficiente y segura.
+
 #### 6.2.3.1. Sprint Planning 3
+
+<table>
+  <thead>
+    <tr>
+      <th>Sprint</th>
+      <th>Sprint 3</th>
+    </tr>
+    <tr>
+      <th colspan = "2">Sprint Planning Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Date</td>
+      <td>10/06/2024</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>3 semanas</td>
+    </tr>
+    <tr>
+      <td>Location o Platform</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared by</td>
+      <td>Edwin Abdias Lopez Huaman – U20201B051</td>
+    </tr>
+    <tr>
+      <td>Attendess (to planning meeting)</td>
+      <td>Fernanda Salome<br>Daniel Bramdo<br>Willfredo Futuri<br>Jorgeluis</td>
+    </tr>
+    <tr>
+      <td>Sprint 3 Review Summary</td>
+      <td>-	Corrección de errores y optimización del backend. <br> -	Mejoras en la experiencia del usuario en el frontend.</td>
+    </tr>
+    <tr>
+      <td>Sprint 3 Retrospective Summary</td>
+      <td>- Mejorar la documentación del código y los comentarios. <br>-	Incrementar la frecuencia de las pruebas unitarias.
+</td>
+    </tr>
+    <tr>
+      <td colspan = "2">Sprint Goal & User Stories</td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Goal</td>
+      <td>Optimizar el sistema y mejorar la experiencia del usuario.</td>
+    </tr>
+    <tr>
+      <td>Sprint 3 Velocity</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Point</td>
+      <td>20</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.3.2. Sprint Backlog 3
+
+<table>
+  <thead>
+    <tr>
+      <th colspan = "7">Sprint 3</th>
+    </tr>
+    <tr>
+      <th colspan = "2">User Story</th>
+      <th colspan = "5">Work-Item/Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Tittle</th>
+      <th>Id</th>
+      <th>Tittle</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US03</td>
+      <td>Actualizar modelo de usuario</td>
+      <td>Crear modelo de usuario</td>
+      <td>Añadir campos adicionales en el modelo de usuario</td>
+      <td>3h</td>
+      <td>Edwin</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Actualizar modelo de usuario</td>
+      <td>Mejora de perfil de usuario</td>
+      <td>Modificar el servicio de perfil de usuario</td>
+      <td>4h</td>
+      <td>Edwin</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Actualizar controlador REST</td>
+      <td>Crear modelo de historial</td>
+      <td>Definir el modelo de historial de sensores</td>
+      <td>3h</td>
+      <td>Edwin</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Crear servicio de historial</td>
+      <td>Crear servicio de historial</td>
+      <td>Implementar el servicio para historial de sensores</td>
+      <td>4h</td>
+      <td>Jorgeluis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Implementar controlador REST</td>
+      <td>Historial de sensores</td>
+      <td>Crear el controlador REST para historial</td>
+      <td>3h</td>
+      <td>Fernanda</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Configurar sensores de luz</td>
+      <td>Notificaciones de luz</td>
+      <td>Configurar sensores de luz en Wokwi</td>
+      <td>4h</td>
+      <td>Jorgeluis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Integrar Wokwi con backend</td>
+      <td>Notificaciones de luz</td>
+      <td>Integrar datos simulados de luz con backend</td>
+      <td>3h</td>
+      <td>Jorgeluis</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Configurar sistema de ventilación</td>
+      <td>Control remoto de ventilación</td>
+      <td>Configurar sistema de ventilación en Wokwi</td>
+      <td>3h</td>
+      <td>Brando</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Crear servicio de control remoto</td>
+      <td>Control remoto de ventilación</td>
+      <td>Implementar el servicio para control remoto de ventilación</td>
+      <td>4h</td>
+      <td>Wilfredo</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.3.3. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit id</th>
+    <th>Commit Message</th>
+    <th>Commited on (Date)</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan = "4">https://github.com/orgs/EndUser-SI572/repositories</td>
+      <td>origin/feature/profile</td>
+      <td>a3b9f87bd8ee4b8d283b8fb34754a40e263aba54</td>
+      <td>Updated user profile model</td>
+      <td>10/06/2024</td>
+    </tr>
+    <tr>
+      <td>origin/feature/history</td>
+      <td>9e5120252a3032d0880a7259b01107fe57e97c8c</td>
+      <td>Added sensor history service</td>
+      <td>Added sensor history service</td>
+    </tr>
+    <tr>
+      <td>origin/feature/light</td>
+      <td>763cf114f59aeaea407bf730737dbf03bef41f63</td>
+      <td>Integrated light sensors with backend</td>
+      <td>12/06/2024</td>
+    </tr>
+    <tr>
+      <td>origin/feature/ventilation</td>
+      <td>6ec42df72e5915b85bf64abe97b00a0b28ce214e</td>
+      <td>Added remote ventilation control</td>
+      <td>13/06/2024</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
+
+Antes de proceder con la presentación de la evidencia de las pruebas realizadas durante este sprint, es importante resaltar que cada funcionalidad desarrollada ha sido sometida a un riguroso proceso de validación. Este proceso incluyó pruebas unitarias, de integración, de seguridad y de simulación, garantizando que los servicios de backend y las integraciones con los sensores IoT cumplen con los requisitos y criterios de aceptación definidos. A continuación, se presenta la evidencia detallada de las pruebas realizadas, demostrando el cumplimiento de los objetivos del sprint y la preparación para el despliegue en el entorno de producción.
+
+<img src="images/sprint 2/testing1.png" width=1000>
+<p align="center"><i>Imagen 20: Registro de un usuario nuevo</i></p>
+
+<img src="images/sprint 2/testing2.png" width=1000>
+<p align="center"><i>Imagen 21: Consultar usuario por id</i></p>
+
+<img src="images/sprint 2/testing3.png" width=1000>
+<p align="center"><i>Imagen 22: El registro de una planta</i></p>
+
+<img src="images/sprint 2/testing4.png" width=1000>
+<p align="center"><i>Imagen 23: obtener todas las plantas de un usuario</i></p>
+
 #### 6.2.3.5. Execution Evidence for Sprint Review
+
+<img src="images/sprint 2/execution 1.png" width=1000>
+<p align="center"><i>Imagen 24: Registro de usuario</i></p>
+
+<img src="images/sprint 2/execution 2.png" width=1000>
+<p align="center"><i>Imagen 24: Inicio de sesión de usuarios</i></p>
+
+<img src="images/sprint 2/execution 3.png" width=1000>
+<p align="center"><i>Imagen 25: home de la aplicación para ver tus plantas y tempertatura</i></p>
+
+<img src="images/sprint 2/execution 4.png" width=1000>
+<p align="center"><i>Imagen 26: Editar o agregar planta</i></p>
+
+<img src="images/sprint 2/execution 5.png" width=1000>
+<p align="center"><i>Imagen 27: Proyecto Wokwi leyendo datos</i></p>
+
+<img src="images/sprint 2/execution 6.png" width=1000>
+<p align="center"><i>Imagen 28: Implementación con sensores</i></p>
+
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+<table>
+  <thead>
+    <th>Servicio</th>
+    <th>Método</th>
+    <th>Endpoint</th>
+    <th>Descripción</th>
+    <th>Parámetros</th>
+    <th>Respuesta</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Autenticación</td>
+      <td>POST</td>
+      <td>/api/v1/auth/login</td>
+      <td>Autentica un usuario y devuelve un token JWT.</td>
+      <td>username, password</td>
+      <td>status, message, token, user</td>
+    </tr>
+    <tr>
+      <td>POST</td>
+      <td>/api/v1/auth/register</td>
+      <td>Registra un nuevo usuario y devuelve un token JWT.</td>
+      <td>name, lastName, username, password, age, gender, cellPhone</td>
+      <td>status, message, token, user</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Gestión de usuario</td>
+      <td>POST</td>
+      <td>/api/v1/user</td>
+      <td>Agrega un nuevo usuario.</td>
+      <td>name, lastName, username, password, age, gender, cellPhone</td>
+      <td>id, name, lastName, username, age, gender, cellPhone, numberPlants</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td>/api/v1/user/{userId}</td>
+      <td>Recupera un usuario por su ID.</td>
+      <td>userId</td>
+      <td>id, name, lastName, username, age, gender, cellPhone, numberPlants</td>
+    </tr>
+    <tr>
+      <td>PUT</td>
+      <td>/api/v1/user/{userId}</td>
+      <td>Actualiza la información de un usuario.</td>
+      <td>userId, name, lastName, username, age, gender, cellPhone</td>
+      <td>id, name, lastName, username, age, gender, cellPhone, numberPlants</td>
+    </tr>
+    <tr>
+      <td rowspan="5">Gestión de Plantas</td>
+      <td>POST</td>
+      <td>/api/v1/plant</td>
+      <td>Agrega una nueva planta.</td>
+      <td>name, scientificName, idealHumidity, idealTemperature, imageUrl, userId</td>
+      <td>id, name, scientificName, idealHumidity, idealTemperature, imageUrl, userId</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td>/api/v1/plant/{plantId}</td>
+      <td>Recupera una planta por su ID.</td>
+      <td>plantId</td>
+      <td>id, name, scientificName, idealHumidity, idealTemperature, imageUrl, userId</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td>/api/v1/plant/user/{userId}</td>
+      <td>Recupera todas las plantas de un usuario.</td>
+      <td>userId</td>
+      <td>Lista de plantas con id, name, scientificName, idealHumidity, idealTemperature, imageUrl, userId</td>
+    </tr>
+    <tr>
+      <td>PUT</td>
+      <td>/api/v1/plant/{plantId}</td>
+      <td>Actualiza la información de una planta.</td>
+      <td>plantId, name, scientificName, idealHumidity, idealTemperature, imageUrl</td>
+      <td>id, name, scientificName, idealHumidity, idealTemperature, imageUrl, userId</td>
+    </tr>
+    <tr>
+      <td>DELETE</td>
+      <td>/api/v1/plant/{plantId}</td>
+      <td>Elimina una planta por su ID.</td>
+      <td>plantId</td>
+      <td>HTTP Status 200 o 404</td>
+    </tr>
+    <tr>
+      <td>Historial de Sensores</td>
+      <td>GET</td>
+      <td>/api/v1/history/{userId}</td>
+      <td>Recupera el historial de sensores de un usuario</td>
+      <td>userId</td>
+      <td>Lista de entradas de historial con id, sensorType, value, timestamp, userId</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
+
+<img src="images/sprint 2/deployment 1.png" width=1000>
+<p align="center"><i>Imagen 27: El frontend fue desplegado en el servicio de hosting gratuito de Firebase</i></p>
+
+<img src="images/sprint 2/deployment 2.png" width=1000>
+<p align="center"><i>Imagen 28: El backend se desplego en un servicio web de azure</i></p>
+
 #### 6.2.3.8. Team Collaboration Insights during Sprint
+
+*Networking frontend*
+
+<p align="center">
+  <img src="images/sprint 1/collaboration1.png" width=300>
+  <img src="images/sprint 1/collaboration2.png" width=300>
+</p>
+
+<p align="center">
+  <img src="images/sprint 1/collaboration3.png" width=500>
+</p>
+
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
 ### 6.3.2. Registro de Entrevistas
