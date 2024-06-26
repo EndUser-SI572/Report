@@ -225,12 +225,12 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
         <h3>Jackeline Fernanda Salomé Nina</h3>
         <b><i>TB1</i></b><br>
         Se aportó al equipo haciendo el capítulo 2, parte del capítulo 3 y unas entrevista además del avance de la documentación en markdown.
-        <b><i>TP</i></b><br>
+        <br><b><i>TP</i></b><br>
         Se aportó con la elbaoración de wireframes y mockups para la realización del front.
-        <b><i>TB2</i></b><br>
-        Se aportó con la elaboración del proyecto en wokwi.
-        <b><i>TF</i></b><br>
-        Se aportó con la conexión del wokwi al back y la documentación en markdown.
+        <br><b><i>TB2</i></b><br>
+        Se aportó con la elaboración del proyecto en wokwi aportando al equipo una parte de la solución del proyecto.
+        <br><b><i>TF</i></b><br>
+        Se aportó con la conexión del wokwi al back y la documentación en markdown lo que ayuda a finalizar el proyecto.
         <h3>Jorgeluis Escobedo Mori</h3>
         <b><i>TB1</i></b><br>
         Se aportó al equipo con el desarrollo del Capitulo 4 y presentación del Trabajo
@@ -240,16 +240,16 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
         <h3>Wilfredo Futuri Illa</h3>
         <b><i>TB1</i></b><br>
         Nos reunimos para coordinar los temas a trabajar y se distribuyo el trabajo para ser mas eficientes y colaborar en equipo.
-        <b><i>TP</i></b><br>
+        <br><b><i>TP</i></b><br>
         Se aportó con la primera versión de front.
-        <b><i>TB2</i></b><br>
+        <br><b><i>TB2</i></b><br>
         Se aportó con la versión actualizada del front.
         <h3>Edwin Abdias Lopez Huaman</h3>
-        <b><i>TB1</i></b><br>
+        <br><b><i>TB1</i></b>
         Para esta entrega fue de suma importancia las reuniones continuas donde se presentaba el avance de cada uno de los integrantes y también resolver las dudas.
-        <b><i>TP</i></b><br>
-        Se aportó con la primera versión de front.
-        <b><i>TB2</i></b><br>
+        <br><b><i>TP</i></b><br>
+        Se aportó con la primera versión de front.<br>
+        <br><b><i>TB2</i></b><br>
         Se aportó con el desarrollo del back.
       </td>
       <td>La comunicación oral es muy efectiva ya nos permite expresar más claramente nuestras ideas y que los demás miembros del equipo puedan ayudarnos a resolver nuestras dudas o atiendan mejor como deben avanzar y así todos tengamos bien claro nuestro objetivo</td>
@@ -260,12 +260,12 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
         <h3>Jackeline Fernanda Salomé Nina</h3>
         <b><i>TB1</i></b><br>
         Acordamos como grupo trabajar sobre el sector agrícola a un nivel de aficionados y principiantes.
-        <b><i>TP</i></b><br>
+        <br><b><i>TP</i></b><br>
         El aporte de mockups y wireframes fueron diseñados para el sector en el que se está trabajando.
-        <b><i>TB2</i></b><br>
+        <br><b><i>TB2</i></b><br>
         El aporte del proyecto en Wokwi permite el desarrollo de la aplicación para el sector que se está trabajando.
-        <b><i>TF</i></b><br>
-        Se aportó con la conexión del wokwi al back, integrando la solución IoT a la aplicación.
+        <br><b><i>TF</i></b><br>
+        Se aportó con la conexión del wokwi al back, integrando la solución IoT a la aplicación, asu vez, comunicando al grupo los avances.
         <h3>Jorgeluis Escobedo Mori</h3>
         <b><i>TB1</i></b><br>
         Se cuenta con el conocimiento de la solucion de software para el sector agrícola.
@@ -275,16 +275,16 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
         <h3>Wilfredo Futuri Illa</h3>
         <b><i>TB1</i></b><br>
         Para el desarrollo de la TB1 tuvimos que investigar sobre el negocio, para que de esta manera podamos solucionar el problema de irrigación con soluciones de software.
-        <b><i>TP</i></b><br>
+        <br><b><i>TP</i></b><br>
         Para el desarrollo de la primera versión del front se tuvo que evaluar la interfaz para el sector detectado.
-        <b><i>TB2</i></b><br>
+        <br><b><i>TB2</i></b><br>
         Para la actualización de la interfaz se tuvo en cuenta que tenga una buena usabilidad.
         <h3>Edwin Abdias Lopez Huaman</h3>
         <b><i>TB1</i></b><br>
         Nuestra comunicación se dio a través de whatsapp y también documentos compartidos en one drive donde era de suma importancia que cada miembro de equipo estuviera atento a los avances de los demás.
-        <b><i>TP</i></b><br>
+        <br><b><i>TP</i></b><br>
         Para el desarrollo de la primera versión del front se tuvo que evaluar la interfaz para el sector detectado.
-        <b><i>TB2</i></b><br>
+        <br><b><i>TB2</i></b><br>
         Para el desarrollo del back se tuvo en cuenta al sector en el que se trabaja y los requerimientos necesarios para los mismos.
       </td>
       <td>La comunicación escrita es muy importante por así se deja evidencia de algunos acuerdos que posteriormente pueden servir para tomar decisiones. Además, así se puede trabajar de manera asincrónica ya que cada uno de los miembros puede completar sus deberes de forma efectiva.</td>
