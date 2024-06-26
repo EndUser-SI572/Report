@@ -55,6 +55,15 @@
         - Implementación del front end y sus funcionalidades
       </td>
     </tr>
+    <tr>
+      <td>3.0</td>
+      <td>26/06/2024</td>
+      <td>Edwin Lopez, Jackeline Salomé, Brando Romero, Wilfredo Futuri, Jorgeluis Escobedo</td>
+      <td>Se completo el sprint 3 y todas sus actividades<br>
+        - Finalización de la implementación de la aplicación y el wokwi<br>
+        - Finalización de la documentación
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -2976,9 +2985,13 @@ Antes de proceder con la presentación de la evidencia de las pruebas realizadas
 ### 6.3.2. Registro de Entrevistas
 ### 6.3.3. Evaluaciones según heurísticas
 
-Las opiniones fueron positivas en su mayoría debido a que todavía se ha mostrado poco del producto final ya que falta la parte de conexión de servicios del back con el front. La mayoría de los usuarios destacaron el potencial del proyecto, pero también señalaron que una demostración completa, sería crucial para evaluar plenamente la funcionalidad y la usabilidad del producto.
-
 ## 6.4. Video About-the-Product.
+
+A continuación, presentamos nuestro video mostrando el producto hasta el más actual avance, incluyendo una demostración de las características principales.
+
+<img src="images/about-the-product.png" width=1000>
+
+Link: [Video-About-the-product](https://upcedupe-my.sharepoint.com/personal/u20201b051_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b051%5Fupc%5Fedu%5Fpe%2FDocuments%2FIOT%20Proyect%2FTB2%2Fvideos%2F2024%2D06%2D08%2022%2D13%2D30%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efdb3d320%2Db3bd%2D4f3e%2Da62f%2D9d0f403ea2bd)
  
 # Conclusiones
 ## Conclusiones y recomendaciones.
