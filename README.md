@@ -241,16 +241,20 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
         <b><i>TB1</i></b><br>
         Nos reunimos para coordinar los temas a trabajar y se distribuyo el trabajo para ser mas eficientes y colaborar en equipo.
         <br><b><i>TP</i></b><br>
-        Se aportó con la primera versión de front.
+        Para la entrega del trabajo parcial coordinamos y asignamos las user stories correspondientes al Sprint 1 
         <br><b><i>TB2</i></b><br>
-        Se aportó con la versión actualizada del front.
+        Para la entrega del tb2 coordinamos y nos organizamos para trabajar el Sprint 2 
+        <br><b><i>TF</i></b><br>
+        Para la entrega del trabajo final nos reunimos de manera presencial para coordinar sobre la entrega del Sprint 3.
         <h3>Edwin Abdias Lopez Huaman</h3>
         <br><b><i>TB1</i></b>
         Para esta entrega fue de suma importancia las reuniones continuas donde se presentaba el avance de cada uno de los integrantes y también resolver las dudas.
         <br><b><i>TP</i></b><br>
-        Se aportó con la primera versión de front.<br>
+        Se contribuyó significativamente en la planificación y desarrollo del front-end, participando en la elaboración de wireframes y mockups.
         <br><b><i>TB2</i></b><br>
-        Se aportó con el desarrollo del back.
+        Se participó activamente en la elaboración del proyecto en Wokwi, aportando al equipo una parte de la solución del proyecto.
+        <br><b><i>TF</i></b><br>
+        Se aportó con la conexión del Wokwi al back y la documentación en markdown, ayudando a finalizar el proyecto. 
       </td>
       <td>La comunicación oral es muy efectiva ya nos permite expresar más claramente nuestras ideas y que los demás miembros del equipo puedan ayudarnos a resolver nuestras dudas o atiendan mejor como deben avanzar y así todos tengamos bien claro nuestro objetivo</td>
     </tr>
@@ -276,16 +280,20 @@ Además, se ha acordado con el equipo llevar a cabo reuniones semanales, durante
         <b><i>TB1</i></b><br>
         Para el desarrollo de la TB1 tuvimos que investigar sobre el negocio, para que de esta manera podamos solucionar el problema de irrigación con soluciones de software.
         <br><b><i>TP</i></b><br>
-        Para el desarrollo de la primera versión del front se tuvo que evaluar la interfaz para el sector detectado.
+        Para la entrega del trabajo parcial de acuerdo con lo investigado sobre el sector de agricultura pudimos hacer el diseño de la arquitectura de componentes para la solución al problema de falta de automatización en el riego de plantas. 
         <br><b><i>TB2</i></b><br>
-        Para la actualización de la interfaz se tuvo en cuenta que tenga una buena usabilidad.
+        Para esta entrega hicimos la creación del frontend de la aplicación desarrollada en angular de acuerdo con las user stories y también desarrollamos el backend que maneja la lógica de la aplicación. 
+        <br><b><i>TF</i></b><br>
+        Para esta entrega hicimos la conexión entre nuestros dispositivos iOT con nuestra aplicación, para que de esta manera se pueda ver en tiempo real los datos de temperatura y humedad de las plantas registradas en la aplicación web. 
         <h3>Edwin Abdias Lopez Huaman</h3>
         <b><i>TB1</i></b><br>
         Nuestra comunicación se dio a través de whatsapp y también documentos compartidos en one drive donde era de suma importancia que cada miembro de equipo estuviera atento a los avances de los demás.
         <br><b><i>TP</i></b><br>
-        Para el desarrollo de la primera versión del front se tuvo que evaluar la interfaz para el sector detectado.
+        Se contribuyó significativamente en la planificación y desarrollo del front-end, participando en la elaboración de wireframes y mockups.
         <br><b><i>TB2</i></b><br>
-        Para el desarrollo del back se tuvo en cuenta al sector en el que se trabaja y los requerimientos necesarios para los mismos.
+        Se participó activamente en la elaboración del proyecto en Wokwi, aportando al equipo una parte de la solución del proyecto.
+        <br><b><i>TF</i></b><br>
+        Se aportó con la conexión del Wokwi al back y la documentación en markdown, ayudando a finalizar el proyecto.
       </td>
       <td>La comunicación escrita es muy importante por así se deja evidencia de algunos acuerdos que posteriormente pueden servir para tomar decisiones. Además, así se puede trabajar de manera asincrónica ya que cada uno de los miembros puede completar sus deberes de forma efectiva.</td>
     </tr>
@@ -3393,3 +3401,6 @@ Figma design: https://www.figma.com/file/IGHX5CGbRdkKT8Xrw6mS8A/AgriWatch?type=d
 
 Wokwi:
 [AgriWatch v1 - Wokwi ESP32, STM32, Arduino Simulator](https://wokwi.com/projects/398174625124143105)
+
+Video Exposición:
+[Exposicion TF](https://upcedupe-my.sharepoint.com/personal/u20201b051_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b051%5Fupc%5Fedu%5Fpe%2FDocuments%2FIOT%20Proyect%2FTF%2Fvideo%20expo%2FTimeline%201%2Emov&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E62772dfb%2D19a5%2D4e18%2Da195%2D7996c9a90059)
